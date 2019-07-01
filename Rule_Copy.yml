@@ -652,8 +652,8 @@ Rule:
   - DOMAIN,ocvideo.apple.com,Apple
   - DOMAIN,gspe1-ssl.ls.apple.com,Apple
   - DOMAIN-SUFFIX,aaplimg.com,Apple
-  - DOMAIN-SUFFIX,Apple.co,Apple
-  - DOMAIN-SUFFIX,Apple.com,Apple
+  - DOMAIN-SUFFIX,apple.co,Apple
+  - DOMAIN-SUFFIX,apple.com,Apple
   - DOMAIN-SUFFIX,appstore.com,Apple
   - DOMAIN-SUFFIX,cdn-apple.com,Apple
   - DOMAIN-SUFFIX,crashlytics.com,Apple
@@ -661,7 +661,7 @@ Rule:
   - DOMAIN-SUFFIX,icloud-content.com,Apple
   - DOMAIN-SUFFIX,me.com,Apple
   - DOMAIN-SUFFIX,mzstatic.com,Apple
-  - DOMAIN-SUFFIX,microsoft.com,💰 Microsoft
+  - DOMAIN-SUFFIX,microsoft.com,Domestic
   - DOMAIN-SUFFIX,windows.net,Domestic
   - DOMAIN-SUFFIX,sfx.ms,Domestic
   - DOMAIN-SUFFIX,sharepoint.com,Domestic
@@ -941,7 +941,7 @@ Rule:
   - DOMAIN-SUFFIX,joinmastodon.org,Proxy
   - DOMAIN-SUFFIX,kakao.com,Proxy
   - DOMAIN-SUFFIX,lihkg.com,Proxy
-  - DOMAIN-SUFFIX,live.com,💰 Microsoft
+  - DOMAIN-SUFFIX,live.com,Proxy
   - DOMAIN-SUFFIX,mail.ru,Proxy
   - DOMAIN-SUFFIX,matters.news,Proxy
   - DOMAIN-SUFFIX,medium.com,Proxy
@@ -1042,7 +1042,7 @@ Rule:
   - DOMAIN-SUFFIX,crackle.com,Proxy
   - DOMAIN-SUFFIX,depositphotos.cn,Proxy
   - DOMAIN-SUFFIX,dish.com,Proxy
-  - DOMAIN-SUFFIX,dmm.co.jp,🇯🇵 日本
+  - DOMAIN-SUFFIX,dmm.co.jp,Proxy
   - DOMAIN-SUFFIX,dmm.com,Proxy
   - DOMAIN-SUFFIX,dnvod.tv,Proxy
   - DOMAIN-SUFFIX,esurance.com,Proxy
@@ -1195,10 +1195,10 @@ Rule:
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - IP-CIDR,100.64.0.0/10,DIRECT
-  - IP-CIDR,101.227.0.0/16,Domestic
-  - IP-CIDR,101.224.0.0/13,Domestic
-  - IP-CIDR,119.176.0.0/12,Domestic
-  - IP-CIDR,106.11.0.0/16,Domestic
+  - IP-CIDR,101.227.0.0/16,AsianTV
+  - IP-CIDR,101.224.0.0/13,AsianTV
+  - IP-CIDR,119.176.0.0/12,AsianTV
+  - IP-CIDR,106.11.0.0/16,AsianTV
   - IP-CIDR,101.227.97.240/32,AdBlock
   - IP-CIDR,101.227.200.11/32,AdBlock
   - IP-CIDR,101.227.200.28/32,AdBlock
@@ -1286,4 +1286,4 @@ Rule:
   - IP-CIDR,202.160.128.0/22,Proxy
   - IP-CIDR,209.237.192.0/19,Proxy
   - GEOIP,CN,Domestic
-  - MATCH,Proxy
+  - MATCH,Others
