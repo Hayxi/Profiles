@@ -1,12 +1,9 @@
 dns:
   enable: true
-  ipv6: true
-  enhanced-mode: fake-ip
-  listen: 127.0.0.1:53
   nameserver:
+  - 192.168.50.1
   - 1.2.4.8
-  - 223.5.5.5
-  - 112.124.47.27
+  - 117.50.10.10
   - tls://dns.rubyfish.cn:853
   fallback:
   - tls://1.1.1.1:853
