@@ -668,8 +668,8 @@ Rule:
   - DOMAIN,ocvideo.apple.com,🍎 Apple
   - DOMAIN,gspe1-ssl.ls.apple.com,🍎 Apple
   - DOMAIN-SUFFIX,aaplimg.com,🍎 Apple
-  - DOMAIN-SUFFIX,🍎 Apple.co,🍎 Apple
-  - DOMAIN-SUFFIX,🍎 Apple.com,🍎 Apple
+  - DOMAIN-SUFFIX,apple.co,🍎 Apple
+  - DOMAIN-SUFFIX,apple.com,🍎 Apple
   - DOMAIN-SUFFIX,appstore.com,🍎 Apple
   - DOMAIN-SUFFIX,cdn-apple.com,🍎 Apple
   - DOMAIN-SUFFIX,crashlytics.com,🍎 Apple
