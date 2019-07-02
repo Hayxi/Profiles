@@ -1039,6 +1039,7 @@ Rule:
   - DOMAIN-SUFFIX,zeronet.io,🃏 Proxy
   - DOMAIN,cdn-images.mailchimp.com,🃏 Proxy
   - DOMAIN,id.heroku.com,🃏 Proxy
+  - DOMAIN,speedtest.fdossena.com,⚡️ Speedtest
   - DOMAIN-KEYWORD,github,🃏 Proxy
   - DOMAIN-KEYWORD,jav,🃏 Proxy
   - DOMAIN-KEYWORD,pinterest,🃏 Proxy
@@ -1298,5 +1299,6 @@ Rule:
   - IP-CIDR,199.96.56.0/21,🃏 Proxy
   - IP-CIDR,202.160.128.0/22,🃏 Proxy
   - IP-CIDR,209.237.192.0/19,🃏 Proxy
+  - DOMAIN-SUFFIX,cn,🎴 Direct
   - GEOIP,CN,🎴 Direct
   - MATCH,🃏 Proxy
