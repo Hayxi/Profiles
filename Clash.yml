@@ -992,6 +992,7 @@ Rule:
   - DOMAIN-SUFFIX,seatguru.com,🃏 Proxy
   - DOMAIN-SUFFIX,shadowsocks.org,🃏 Proxy
   - DOMAIN-SUFFIX,slideshare.net,🃏 Proxy
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🃏 Proxy
   - DOMAIN-SUFFIX,soundcloud.com,🃏 Proxy
   - DOMAIN-SUFFIX,startpage.com,🃏 Proxy
   - DOMAIN-SUFFIX,steamcommunity.com,🃏 Proxy
@@ -1043,6 +1044,7 @@ Rule:
   - DOMAIN-KEYWORD,github,🃏 Proxy
   - DOMAIN-KEYWORD,jav,🃏 Proxy
   - DOMAIN-KEYWORD,pinterest,🃏 Proxy
+  - DOMAIN-KEYWORD,playstation,🃏 Proxy
   - DOMAIN-KEYWORD,porn,🃏 Proxy
   - DOMAIN-KEYWORD,wikileaks,🃏 Proxy
   - DOMAIN-SUFFIX,apartmentratings.com,🃏 Proxy
