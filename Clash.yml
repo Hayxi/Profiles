@@ -84,9 +84,7 @@ Rule:
   - DOMAIN-SUFFIX,googlevideo.com,🍿 Video
   - DOMAIN-SUFFIX,gvt2.com,🍿 Video
   - DOMAIN-SUFFIX,youtu.be,🍿 Video
-  - DOMAIN-KEYWORD,bilibili,🎴 Direct
   - DOMAIN-SUFFIX,acg.tv,🎴 Direct
-  - DOMAIN-SUFFIX,acgvideo.com,🎴 Direct
   - DOMAIN-SUFFIX,b23.tv,🎴 Direct
   - DOMAIN-SUFFIX,biliapi.com,🎴 Direct
   - DOMAIN-SUFFIX,biliapi.net,🎴 Direct
@@ -95,7 +93,6 @@ Rule:
   - DOMAIN-SUFFIX,biligame.net,🎴 Direct
   - DOMAIN-SUFFIX,hdslb.com,🎴 Direct
   - DOMAIN-SUFFIX,im9.com,🎴 Direct
-  - DOMAIN-KEYWORD,qiyi,🎴 Direct
   - DOMAIN-SUFFIX,qy.net,🎴 Direct
   - DOMAIN-SUFFIX,api.mob.app.letv.com,🎴 Direct
   - DOMAIN-SUFFIX,163yun.com,🎴 Direct
@@ -703,7 +700,6 @@ Rule:
   - DOMAIN-SUFFIX,xiami.net,🎴 Direct
   - DOMAIN-SUFFIX,163.com,🎴 Direct
   - DOMAIN-SUFFIX,126.net,🎴 Direct
-  - DOMAIN-SUFFIX,163yun.com,🎴 Direct
   - DOMAIN-SUFFIX,sohu.com.cn,🎴 Direct
   - DOMAIN-SUFFIX,itc.cn,🎴 Direct
   - DOMAIN-SUFFIX,sohu.com,🎴 Direct
@@ -717,9 +713,6 @@ Rule:
   - DOMAIN-SUFFIX,mi-img.com,🎴 Direct
   - DOMAIN-SUFFIX,mifile.cn,🎴 Direct
   - DOMAIN-SUFFIX,xiaomi.com,🎴 Direct
-  - DOMAIN-SUFFIX,acgvideo.com,🎴 Direct
-  - DOMAIN-SUFFIX,bilibili.com,🎴 Direct
-  - DOMAIN-SUFFIX,hdslb.com,🎴 Direct
   - DOMAIN-SUFFIX,iqiyi.com,🎴 Direct
   - DOMAIN-SUFFIX,iqiyipic.com,🎴 Direct
   - DOMAIN-SUFFIX,71.am.com,🎴 Direct
