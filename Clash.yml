@@ -36,7 +36,6 @@ Rule:
   - DOMAIN-SUFFIX,bbci.co,🍿 Video
   - DOMAIN-SUFFIX,bbci.co.uk,🍿 Video
   - DOMAIN-SUFFIX,chocotv.com.tw,🍿 Video
-  - DOMAIN-KEYWORD,epicgames,🍿 Video
   - DOMAIN-SUFFIX,helpshift.com,🍿 Video
   - DOMAIN-KEYWORD,foxplus,🍿 Video
   - DOMAIN-SUFFIX,config.fox.com,🍿 Video
@@ -678,6 +677,7 @@ Rule:
   - DOMAIN-KEYWORD,officecdn,🎴 Direct
   - DOMAIN-SUFFIX,blizzard.com,🎴 Direct
   - DOMAIN-SUFFIX,battle.net,🎴 Direct
+  - DOMAIN-KEYWORD,epicgames,🎴 Direct
   - DOMAIN,blzddist1-a.akamaihd.net,🎴 Direct
   - DOMAIN-SUFFIX,steampowered.com,🎴 Direct
   - DOMAIN-SUFFIX,steam-chat.com,🎴 Direct
@@ -747,8 +747,6 @@ Rule:
   - DOMAIN-SUFFIX,ip.cn,🎴 Direct
   - DOMAIN-SUFFIX,ip.la,🎴 Direct
   - DOMAIN-SUFFIX,ip-cdn.com,🎴 Direct
-  - DOMAIN-SUFFIX,ipv6-test.com,🎴 Direct
-  - DOMAIN-SUFFIX,test-ipv6.com,🎴 Direct
   - DOMAIN-SUFFIX,whatismyip.com,🎴 Direct
   - DOMAIN,ip.bjango.com,🎴 Direct
   - DOMAIN-SUFFIX,40017.cn,🎴 Direct
