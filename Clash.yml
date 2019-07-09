@@ -670,13 +670,25 @@ Rule:
   - DOMAIN-SUFFIX,icloud-content.com,🍎 Apple
   - DOMAIN-SUFFIX,me.com,🍎 Apple
   - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
-  - DOMAIN-SUFFIX,microsoft.com,💰 Microsoft
-  - DOMAIN-SUFFIX,onedrive.live.com,💰 Microsoft
-  - DOMAIN-SUFFIX,live.com,🎴 Direct
-  - DOMAIN-SUFFIX,windows.net,🎴 Direct
-  - DOMAIN-SUFFIX,sfx.ms,🎴 Direct
-  - DOMAIN-SUFFIX,sharepoint.com,🎴 Direct
-  - DOMAIN-KEYWORD,officecdn,🎴 Direct
+  - DOMAIN-KEYWORD,microsoft,💰 Microsoft
+  - DOMAIN-SUFFIX,1drv.com,💰 Microsoft
+  - DOMAIN-SUFFIX,bing.com,💰 Microsoft
+  - DOMAIN-SUFFIX,live.com,💰 Microsoft
+  - DOMAIN-SUFFIX,livefilestore.com,💰 Microsoft
+  - DOMAIN-SUFFIX,windows.net,💰 Microsoft
+  - DOMAIN-SUFFIX,ms,💰 Microsoft
+  - DOMAIN-SUFFIX,msauth.net,💰 Microsoft
+  - DOMAIN-SUFFIX,msecnd.net,💰 Microsoft
+  - DOMAIN-SUFFIX,msedge.net,💰 Microsoft
+  - DOMAIN-SUFFIX,msftauth.net,💰 Microsoft
+  - DOMAIN-SUFFIX,msocdn.com,💰 Microsoft
+  - DOMAIN-SUFFIX,sharepoint.com,💰 Microsoft
+  - DOMAIN-SUFFIX,skype.com,💰 Microsoft
+  - DOMAIN-SUFFIX,onedrive.com,💰 Microsoft
+  - DOMAIN-SUFFIX,outlook.com,💰 Microsoft
+  - DOMAIN-SUFFIX,office.com,💰 Microsoft
+  - DOMAIN-SUFFIX,office.net,💰 Microsoft
+  - DOMAIN-SUFFIX,xboxlive.com,💰 Microsoft
   - DOMAIN-SUFFIX,blizzard.com,🎴 Direct
   - DOMAIN-SUFFIX,battle.net,🎴 Direct
   - DOMAIN-KEYWORD,epicgames,🎴 Direct
@@ -1020,7 +1032,6 @@ Rule:
   - DOMAIN-SUFFIX,worldcat.org,🃏 Proxy
   - DOMAIN-SUFFIX,wsj.com,🃏 Proxy
   - DOMAIN-SUFFIX,wsj.net,🃏 Proxy
-  - DOMAIN-SUFFIX,xboxlive.com,🃏 Proxy
   - DOMAIN-SUFFIX,xvideos.com,🃏 Proxy
   - DOMAIN-SUFFIX,yahoo.com,🃏 Proxy
   - DOMAIN-SUFFIX,yesasia.com,🃏 Proxy
@@ -1042,7 +1053,6 @@ Rule:
   - DOMAIN-SUFFIX,apartmentratings.com,🃏 Proxy
   - DOMAIN-SUFFIX,apartments.com,🃏 Proxy
   - DOMAIN-SUFFIX,bankmobilevibe.com,🃏 Proxy
-  - DOMAIN-SUFFIX,bing.com,🃏 Proxy
   - DOMAIN-SUFFIX,booktopia.com.au,🃏 Proxy
   - DOMAIN-SUFFIX,centauro.com.br,🃏 Proxy
   - DOMAIN-SUFFIX,clearsurance.com,🃏 Proxy
