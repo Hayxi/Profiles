@@ -671,7 +671,7 @@ Rule:
   - DOMAIN-SUFFIX,me.com,🍎 Apple
   - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
   - DOMAIN-SUFFIX,microsoft.com,💰 Microsoft
-  - DOMAIN,onedrive.live.com,💰 Microsoft
+  - DOMAIN-SUFFIX,onedrive.live.com,💰 Microsoft
   - DOMAIN-SUFFIX,live.com,🎴 Direct
   - DOMAIN-SUFFIX,windows.net,🎴 Direct
   - DOMAIN-SUFFIX,sfx.ms,🎴 Direct
