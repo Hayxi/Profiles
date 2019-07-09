@@ -675,19 +675,20 @@ Rule:
   - DOMAIN-SUFFIX,bing.com,💰 Microsoft
   - DOMAIN-SUFFIX,live.com,💰 Microsoft
   - DOMAIN-SUFFIX,livefilestore.com,💰 Microsoft
-  - DOMAIN-SUFFIX,windows.net,💰 Microsoft
+  - DOMAIN-SUFFIX,modpim.com,💰 Microsoft
   - DOMAIN-SUFFIX,ms,💰 Microsoft
   - DOMAIN-SUFFIX,msauth.net,💰 Microsoft
   - DOMAIN-SUFFIX,msecnd.net,💰 Microsoft
   - DOMAIN-SUFFIX,msedge.net,💰 Microsoft
   - DOMAIN-SUFFIX,msftauth.net,💰 Microsoft
   - DOMAIN-SUFFIX,msocdn.com,💰 Microsoft
-  - DOMAIN-SUFFIX,sharepoint.com,💰 Microsoft
-  - DOMAIN-SUFFIX,skype.com,💰 Microsoft
-  - DOMAIN-SUFFIX,onedrive.com,💰 Microsoft
-  - DOMAIN-SUFFIX,outlook.com,💰 Microsoft
   - DOMAIN-SUFFIX,office.com,💰 Microsoft
   - DOMAIN-SUFFIX,office.net,💰 Microsoft
+  - DOMAIN-SUFFIX,onedrive.com,💰 Microsoft
+  - DOMAIN-SUFFIX,outlook.com,💰 Microsoft
+  - DOMAIN-SUFFIX,sharepoint.com,💰 Microsoft
+  - DOMAIN-SUFFIX,skype.com,💰 Microsoft
+  - DOMAIN-SUFFIX,windows.net,💰 Microsoft
   - DOMAIN-SUFFIX,xboxlive.com,💰 Microsoft
   - DOMAIN-SUFFIX,blizzard.com,🎴 Direct
   - DOMAIN-SUFFIX,battle.net,🎴 Direct
