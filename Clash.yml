@@ -671,6 +671,8 @@ Rule:
   - DOMAIN-SUFFIX,me.com,🍎 Apple
   - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
   - DOMAIN-SUFFIX,microsoft.com,💰 Microsoft
+  - DOMAIN,onedrive.live.com,💰 Microsoft
+  - DOMAIN-SUFFIX,live.com,🎴 Direct
   - DOMAIN-SUFFIX,windows.net,🎴 Direct
   - DOMAIN-SUFFIX,sfx.ms,🎴 Direct
   - DOMAIN-SUFFIX,sharepoint.com,🎴 Direct
@@ -945,7 +947,6 @@ Rule:
   - DOMAIN-SUFFIX,joinmastodon.org,🃏 Proxy
   - DOMAIN-SUFFIX,kakao.com,🃏 Proxy
   - DOMAIN-SUFFIX,lihkg.com,🃏 Proxy
-  - DOMAIN-SUFFIX,live.com,💰 Microsoft
   - DOMAIN-SUFFIX,mail.ru,🃏 Proxy
   - DOMAIN-SUFFIX,matters.news,🃏 Proxy
   - DOMAIN-SUFFIX,medium.com,🃏 Proxy
