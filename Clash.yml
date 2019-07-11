@@ -688,6 +688,7 @@ Rule:
   - DOMAIN-SUFFIX,outlook.com,💰 Microsoft
   - DOMAIN-SUFFIX,sharepoint.com,💰 Microsoft
   - DOMAIN-SUFFIX,skype.com,💰 Microsoft
+  - DOMAIN-SUFFIX,windows.com,💰 Microsoft
   - DOMAIN-SUFFIX,windows.net,💰 Microsoft
   - DOMAIN-SUFFIX,xboxlive.com,💰 Microsoft
   - DOMAIN-SUFFIX,blizzard.com,🎴 Direct
