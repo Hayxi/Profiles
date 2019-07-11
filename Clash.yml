@@ -672,7 +672,9 @@ Rule:
   - DOMAIN-SUFFIX,mzstatic.com,🍎 Apple
   - DOMAIN-KEYWORD,microsoft,💰 Microsoft
   - DOMAIN-SUFFIX,1drv.com,💰 Microsoft
+  - DOMAIN-SUFFIX,azureedge.net,💰 Microsoft
   - DOMAIN-SUFFIX,bing.com,💰 Microsoft
+  - DOMAIN-SUFFIX,footprintdns.com,💰 Microsoft
   - DOMAIN-SUFFIX,live.com,💰 Microsoft
   - DOMAIN-SUFFIX,livefilestore.com,💰 Microsoft
   - DOMAIN-SUFFIX,modpim.com,💰 Microsoft
@@ -684,6 +686,7 @@ Rule:
   - DOMAIN-SUFFIX,msocdn.com,💰 Microsoft
   - DOMAIN-SUFFIX,office.com,💰 Microsoft
   - DOMAIN-SUFFIX,office.net,💰 Microsoft
+  - DOMAIN-SUFFIX,office365.com,💰 Microsoft
   - DOMAIN-SUFFIX,onedrive.com,💰 Microsoft
   - DOMAIN-SUFFIX,outlook.com,💰 Microsoft
   - DOMAIN-SUFFIX,sharepoint.com,💰 Microsoft
