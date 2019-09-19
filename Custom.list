@@ -4,6 +4,7 @@ DOMAIN-SUFFIX,agilebits.com,PROXY
 DOMAIN-SUFFIX,dmm.co.jp,YouTube
 DOMAIN-SUFFIX,gog.com,PROXY
 DOMAIN-SUFFIX,namesilo.com,PROXY
+DOMAIN-SUFFIX,pocketcasts.com,PROXY
 DOMAIN-SUFFIX,pushbullet.com,PROXY
 DOMAIN-SUFFIX,pushbulletusercontent.com,PROXY
 DOMAIN,koolshare.ngrok.wang,DIRECT
