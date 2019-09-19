@@ -6,3 +6,7 @@ DOMAIN-SUFFIX,gog.com,PROXY
 DOMAIN-SUFFIX,namesilo.com,PROXY
 DOMAIN-SUFFIX,pushbullet.com,PROXY
 DOMAIN-SUFFIX,pushbulletusercontent.com,PROXY
+DOMAIN,koolshare.ngrok.wang,DIRECT
+DOMAIN,rogsoft.ddnsto.com,DIRECT
+DOMAIN,router.asus.com,DIRECT
+DOMAIN,www.managerouter.ink,DIRECT
