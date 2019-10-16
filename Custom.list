@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,namesilo.com,PROXY
 DOMAIN-SUFFIX,pocketcasts.com,PROXY
 DOMAIN-SUFFIX,pushbullet.com,PROXY
 DOMAIN-SUFFIX,pushbulletusercontent.com,PROXY
-DOMAIN-SUFFIX,tieba.baidu.com,PROXY
 DOMAIN,koolshare.ngrok.wang,DIRECT
 DOMAIN,rogsoft.ddnsto.com,DIRECT
 DOMAIN,router.asus.com,DIRECT
