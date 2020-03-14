@@ -1,2 +1,7 @@
-DOMAIN-SUFFIX,dmm.co.jp,Japan
-DOMAIN-SUFFIX,greenmangaming.com,DIRECT
+host-suffix, dmm.co.jp,Japan
+user-agent, PlayStation*, proxy
+host-suffix, playstation.com, proxy
+host-suffix, playstation.net, proxy
+host-suffix, sonyentertainmentnetwork.com, proxy
+host-suffix, psnprofiles.com, proxy
+host-suffix, greenmangaming.com, direct
