@@ -1,4 +1,3 @@
-host-suffix, dmm.co.jp, Japan
 user-agent, Pushbullet*, proxy
 user-agent, PlayStation*, proxy
 host-suffix, playstation.com, proxy
