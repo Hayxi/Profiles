@@ -25,19 +25,13 @@
 ^https?://zhidao\.baidu\.com header-replace User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
 
 [URL Rewrite]
-# >>> Redirect URL to TestFlight <<<
-^https?:\/\/testflight\.apple\.com\/join\/(\w*) itms-beta://testflight.apple.com/join/$1 302
-
-# >>> Redirect URL to Wikipedia <<<
-^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? wikipedia://zh.wikipedia.org/wiki 302
-
 # >>> Redirect URL to YouTube <<<
 ^https?:\/\/m\.youtube\.com\/watch\?v\=(\w*) youtube://$1 302
 ^https?:\/\/m\.youtube\.com\/playlist\?list\=(\w*) youtube:///playlist?list=$1 302
 ^https?:\/\/m\.youtube\.com\/channel\/(\w*) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
-hostname = %INSERT% testflight.apple.com, zh.wikipedia.org, zh.m.wikipedia.org, m.youtube.com
+hostname = %INSERT% *.wikipedia.org, m.youtube.com
 
 [Script]
 # >>> Remove Zhihu Ads <<<
