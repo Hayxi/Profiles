@@ -36,14 +36,17 @@
 ^https?:\/\/m\.youtube\.com\/playlist\?list\=(\w*) youtube:///playlist?list=$1 302
 ^https?:\/\/m\.youtube\.com\/channel\/(\w*) youtube://www.youtube.com/channel/$1 302
 
+[MITM]
+hostname = %INSERT% testflight.apple.com, zh.wikipedia.org, zh.m.wikipedia.org, m.youtube.com, api.live.bilibili.com
+
 [Script]
-# 知乎去广告
+# Remove Zhihu Ads
 http-response https://api.zhihu.com/moments/recommend requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20zhihu%20feed.js
 http-response https://api.zhihu.com/topstory/recommend requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20zhihu%20recommend.js
 http-response https://api.zhihu.com/v4/questions requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20zhihu%20answer.js
 http-response https://api.zhihu.com/people/ requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20zhihu%20people.js
 
-# 哔哩哔哩去广告
+# Remove bilibili Ads
 http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20space.js
 http-response https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20tab.js
 http-response https://app.bilibili.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20feed.js
@@ -52,9 +55,6 @@ http-response https://app.bilibili.com/x/v2/view\?access_key requires-body=1,max
 http-response https://api.bilibili.com/x/v2/reply/main\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20reply.js
 http-response https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20live.js
 
-# Netflix 获取 IMDb & Douban 分数
+# Display Netflix ratings from IMDb & Douban
 http-request ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D script-path=https://github.com/yichahucha/surge/raw/master/nf_rating.js
 http-response ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D requires-body=1,script-path=https://github.com/yichahucha/surge/raw/master/nf_rating.js
-
-[MITM]
-hostname = %INSERT% testflight.apple.com, zh.wikipedia.org, zh.m.wikipedia.org, m.youtube.com, api.live.bilibili.com
