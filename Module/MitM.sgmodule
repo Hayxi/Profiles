@@ -1,5 +1,5 @@
-#!name=MitM All Hostnames
-#!desc=Customize MitM All Hostnames from https://github.com/maicoo-l/Surge/raw/master/Module/MITM.sgmodule
+#!name=MitM Hostnames
+#!desc=Customize MitM Hostnames from maicoo-l's MITM.sgmodule
 #!system=ios
 
 [MITM]
