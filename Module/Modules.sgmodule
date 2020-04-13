@@ -1,5 +1,5 @@
 #!name=Modules
-#!desc=Local Mapping, Header Rewrite, URL Rewrite, Hostnames and Scripts.
+#!desc=Local Mapping, Header Rewrite, URL Rewrite, Hostnames and Scripts
 #!system=ios
 
 [Host]
