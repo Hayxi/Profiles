@@ -1,5 +1,5 @@
 #!name=Modules
-#!desc=Local Mapping, Header Rewrite, URL Rewrite, Hostnames and Scripts.
+#!desc=Supplementary Rules: Local Mapping, Header Rewrite, URL Rewrite, Hostnames and Scripts.
 #!system=ios
 
 [Host]
@@ -37,7 +37,7 @@
 ^https?:\/\/m\.youtube\.com\/channel\/(\w*) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
-hostname = %INSERT% testflight.apple.com, zh.wikipedia.org, zh.m.wikipedia.org, m.youtube.com, api.live.bilibili.com
+hostname = %INSERT% testflight.apple.com, zh.wikipedia.org, zh.m.wikipedia.org, m.youtube.com
 
 [Script]
 # >>> Remove Zhihu Ads <<<
