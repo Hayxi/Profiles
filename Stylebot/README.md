@@ -8,7 +8,7 @@ I've tried to solve it with Mactype, but it can cause a lot of problems.
 
 ## Usage
 
-1. Install [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) from Chrome Web Store.
+1. Install [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha) or [Stylebot Lite](https://chrome.google.com/webstore/detail/stylebot-lite/lkcdgdbfbbnpnljlalmcjnepgjnmgigh) from Chrome Web Store.
 
 2. Find the **Global Stylesheet** in the options.
 
