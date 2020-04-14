@@ -12,7 +12,7 @@ I've tried to solve it with Mactype, but it can cause a lot of problems.
 
 2. Find the **Global Stylesheet** in the options.
 
-3. Paste all the code in [stylesheet.css](https://github.com/Hayxi/Stylebot-Styles-Backup/blob/master/stylesheet.css) to **Edit Global Stylesheet**.
+3. Paste all the code in [stylesheet.css](https://github.com/Hayxi/Profiles/blob/ma%D1%95ter/Stylebot/stylesheet.css) to **Edit Global Stylesheet**.
 
 4. Replace [`Sarasa UI SC`](https://github.com/be5invis/Sarasa-Gothic) to the fonts you want to use. (Optional)
 
