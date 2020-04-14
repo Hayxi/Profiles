@@ -31,7 +31,7 @@
 ^https?:\/\/m\.youtube\.com\/channel\/(\w*) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
-hostname = %INSERT% *.wikipedia.org, m.youtube.com
+hostname = %INSERT% *.wikipedia.org, m.youtube.com, api.bilibili.com, api.live.bilibili.com, ios.prod.ftl.netflix.com
 
 [Script]
 # >>> Remove Zhihu Ads <<<
