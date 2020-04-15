@@ -8,6 +8,7 @@
 *.jd.com = server:119.29.29.29
 *.qq.com = server:119.29.29.29
 *.tencent.com = server:119.29.29.29
+*.alipay.com = server:223.5.5.5
 *.alicdn.com = server:223.5.5.5
 *.aliyun.com = server:223.5.5.5
 *.weixin.com = server:119.29.29.29
@@ -18,6 +19,8 @@
 *.netease.com = server:119.29.29.29
 *.mi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
+*.bilibili.com = server:119.29.29.29
+hdslb.com = server:119.29.29.29
 
 [Header Rewrite]
 ^*.qpic.cn header-replace User-Agent "WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0"
