@@ -1,0 +1,11 @@
+# > Fast
+host-suffix, fast.com
+
+# > Speedtest
+user-agent, SpeedTest*
+host-keyword, speedtest
+host-suffix, speedtest.net
+host-suffix, ooklaserver.net
+host-suffix, 88-f.net
+host, st.pautina-telecom.ru
+host-suffix, goodnet.su
