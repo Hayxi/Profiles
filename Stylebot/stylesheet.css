@@ -96,6 +96,12 @@
 
 @font-face {
   
+  font-family: "Motiva Sans";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
   font-family: "proxima_nova";
   src: local("Sarasa UI SC");
 }
