@@ -1,4 +1,4 @@
-#!name=Extra
+#!name=Extra Module
 #!desc=Supplementary Rules: Local Mapping, Header Rewrite, URL Rewrite and Hostnames.
 #!system=ios
 
