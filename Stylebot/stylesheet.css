@@ -12,48 +12,6 @@
 
 @font-face {
   
-  font-family: "微軟正黑體";
-  src: local("Sarasa UI TC");
-}
-
-@font-face {
-  
-  font-family: "SimSun";
-  src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
-  font-family: "Segoe UI";
-  src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
-  font-family: "Microsoft JhengHei";
-  src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
-  font-family: "Microsoft YaHei";
-  src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
-  font-family: "Microsoft YaHei UI";
-  src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
-  font-family: "Microsoft YaHei UI Light";
-  src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
   font-family: "Arial";
   src: local("Sarasa UI SC");
 }
@@ -96,6 +54,30 @@
 
 @font-face {
   
+  font-family: "Microsoft JhengHei";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
+  font-family: "Microsoft YaHei";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
+  font-family: "Microsoft YaHei UI";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
+  font-family: "Microsoft YaHei UI Light";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
   font-family: "Motiva Sans";
   src: local("Sarasa UI SC");
 }
@@ -114,6 +96,18 @@
 
 @font-face {
   
+  font-family: "Segoe UI";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
+  font-family: "SimSun";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
   font-family: "Source Sans Pro";
   src: local("Sarasa UI SC");
 }
@@ -122,6 +116,18 @@
   
   font-family: "Verdana";
   src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
+  font-family: "微軟正黑體";
+  src: local("Sarasa UI TC");
+}
+
+@font-face {
+  
+  font-family: "Meiryo";
+  src: local("Sarasa UI TC");
 }
 
 @font-face {
