@@ -12,6 +12,12 @@
 
 @font-face {
   
+  font-family: "微軟正黑體";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
   font-family: "Arial";
   src: local("Sarasa UI SC");
 }
@@ -49,6 +55,12 @@
 @font-face {
   
   font-family: "Lucida Grande";
+  src: local("Sarasa UI SC");
+}
+
+@font-face {
+  
+  font-family: "Meiryo";
   src: local("Sarasa UI SC");
 }
 
@@ -116,18 +128,6 @@
   
   font-family: "Verdana";
   src: local("Sarasa UI SC");
-}
-
-@font-face {
-  
-  font-family: "微軟正黑體";
-  src: local("Sarasa UI TC");
-}
-
-@font-face {
-  
-  font-family: "Meiryo";
-  src: local("Sarasa UI TC");
 }
 
 @font-face {
