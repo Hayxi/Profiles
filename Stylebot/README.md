@@ -1,4 +1,4 @@
-# Stylebot Global Stylesheet !Expired
+# Stylebot Global Stylesheet !EXPIRED
 
 Most web pages specify `font-family`, so even if you customize fonts in Chrome, they won't be replaced.
 
