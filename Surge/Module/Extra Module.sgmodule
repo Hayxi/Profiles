@@ -92,9 +92,9 @@ hdslb.com = server:119.29.29.29
 ^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? https://www.wikiwand.com/zh$2 302
 
 # Redirect YouTube to App
-^https?:\/\/m\.youtube\.com\/watch\?v\=(\w*) youtube://$1 302
-^https?:\/\/m\.youtube\.com\/playlist\?list\=(\w*) youtube:///playlist?list=$1 302
-^https?:\/\/m\.youtube\.com\/channel\/(\w*) youtube://www.youtube.com/channel/$1 302
+^https?:\/\/m\.youtube\.com\/watch\?v\= youtube:// 302
+^https?:\/\/m\.youtube\.com\/playlist\?list\= youtube:///playlist?list= 302
+^https?:\/\/m\.youtube\.com\/channel\/ youtube://www.youtube.com/channel/ 302
 
 [MITM]
 hostname = %INSERT% *.wikipedia.org, m.youtube.com
