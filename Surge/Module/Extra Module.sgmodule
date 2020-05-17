@@ -88,8 +88,8 @@ hdslb.com = server:119.29.29.29
 ^https?:\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
 
 # Redirect Wikipedia to Wikiwand
-^https://zh.(m.)?wikipedia.org/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
-^https://(\w*).(m.)?wikipedia.org/wiki https://www.wikiwand.com/$1 302
+^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
+^https?:\/\/(\w*)\.(m.)?wikipedia\.org\/wiki https://www.wikiwand.com/$1 302
 
 # Redirect YouTube to App
 ^https?:\/\/m\.youtube\.com\/watch\?v\=(\w*) youtube://$1 302
