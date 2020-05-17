@@ -41,7 +41,7 @@ hdslb.com = server:119.29.29.29
 
 # Redirect False to True
 # > IGN China to IGN Global
-^https?:\/\/(www.)?ign\.xn—fiqs8s\/ http://cn.ign.com/ccpref/us 302
+^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
 # > Fake Website Made By C&J Marketing
 ^https?:\/\/(www.)?abbyychina\.com\/ https://www.abbyy.cn/ 302
 ^https?:\/\/(www.)?bartender\.cc\/ https://www.macbartender.com/ 302
@@ -88,8 +88,8 @@ hdslb.com = server:119.29.29.29
 ^https?:\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
 
 # Redirect Wikipedia to Wikiwand
-^https?:\/\/(\w*)\.(m.)?wikipedia\.org\/wiki https://www.wikiwand.com/$1 302
-^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?(?=/) https://www.wikiwand.com/zh$2 302
+^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki https://www.wikiwand.com/$1$2$3 302
+^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? https://www.wikiwand.com/zh$2 302
 
 # Redirect YouTube to App
 ^https?:\/\/m\.youtube\.com\/watch\?v\=(\w*) youtube://$1 302
