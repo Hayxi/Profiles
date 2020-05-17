@@ -7,7 +7,7 @@
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/zh\\.wikipedia\\.org\\/zh(-\\w*)?",
 			"exclude": "",
-			"group": "Wikipedia 重定向到 Wikiwand",
+			"group": "重定向 Wikipedia 至 Wikiwand",
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://www.wikiwand.com/zh$1"
@@ -19,7 +19,7 @@
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.wikipedia\\.org\\/wiki",
 			"exclude": "",
-			"group": "Wikipedia 重定向到 Wikiwand",
+			"group": "重定向 Wikipedia 至 Wikiwand",
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://www.wikiwand.com/$1$2$3"
@@ -31,7 +31,7 @@
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/c\\.tieba\\.baidu\\.com",
 			"exclude": "",
-			"group": "百度贴吧异类域名重定向",
+			"group": "重定向百度贴吧异类域名",
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://tieba.baidu.com"
@@ -43,7 +43,7 @@
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/jump2\\.bdimg\\.com",
 			"exclude": "",
-			"group": "百度贴吧异类域名重定向",
+			"group": "重定向百度贴吧异类域名",
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://tieba.baidu.com"
@@ -55,10 +55,22 @@
 			"matchType": "regexp",
 			"pattern": "^https:\\/\\/i\\.17173cdn\\.com",
 			"exclude": "",
-			"group": "17173 图片载入",
+			"group": "重定向 17173 图片解析",
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://i.17173cdn.com"
+		},
+		{
+			"enable": true,
+			"name": "item.m.jd.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/item\\.m\\.jd\\.com\\/product",
+			"exclude": "",
+			"group": "重定向京东移动版网址",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://item.jd.com"
 		}
 	],
 	"sendHeader": [],
