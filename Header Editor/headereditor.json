@@ -71,6 +71,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://item.jd.com"
+		},
+		{
+			"enable": true,
+			"name": "ue.17173cdn.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https:\\/\\/ue\\.17173cdn\\.com",
+			"exclude": "",
+			"group": "重定向 17173 图片解析",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://ue.17173cdn.com"
 		}
 	],
 	"sendHeader": [],
