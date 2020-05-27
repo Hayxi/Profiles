@@ -83,6 +83,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://ue.17173cdn.com"
+		},
+		{
+			"enable": true,
+			"name": "www.tieba.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.tieba\\.com",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com"
 		}
 	],
 	"sendHeader": [],
