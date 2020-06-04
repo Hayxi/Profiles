@@ -15,7 +15,7 @@
     </ProxificationPortableEngine>
     <ProxificationPortableEngine subsystem="64">
       <Location>Winsock</Location>
-      <Type hotpatch="false">Modcopy</Type>
+      <Type hotpatch="false">Prologue</Type>
     </ProxificationPortableEngine>
     <Encryption mode="basic" />
     <HttpProxiesSupport enabled="false" />
@@ -30,16 +30,6 @@
       <Port>8889</Port>
       <Options>48</Options>
     </Proxy>
-    <Proxy id="101" type="SOCKS5">
-      <Address>192.168.50.1</Address>
-      <Port>1080</Port>
-      <Options>48</Options>
-    </Proxy>
-    <Proxy id="102" type="SOCKS5">
-      <Address>192.168.50.1</Address>
-      <Port>23456</Port>
-      <Options>48</Options>
-    </Proxy>
   </ProxyList>
   <ChainList />
   <RuleList>
@@ -50,7 +40,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Proxy</Name>
-      <Applications>galaxyclient.exe; gwent.exe; launcher.exe; socialclubhelper.exe</Applications>
+      <Applications>galaxyclient.exe</Applications>
       <Action type="Proxy">100</Action>
     </Rule>
     <Rule enabled="true">
