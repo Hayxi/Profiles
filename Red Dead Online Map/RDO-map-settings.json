@@ -1,0 +1,24 @@
+{
+    "cookies": {
+        "remove-markers-daily": "1",
+        "map-layer": "0",
+        "marker-cluster": "1",
+        "enable-marker-shadows": "1",
+        "enable-dclick-zoom": "1",
+        "show-help": "1",
+        "marker-opacity": "1",
+        "marker-size": "1",
+        "overlay-opacity": "0.5",
+        "fme-display": "3",
+        "menu-opened": "1",
+        "language": "zh-Hant",
+        "timestamps-24": "1"
+    },
+    "local": {
+        "main.date": "2020-06-08",
+        "main.language": "\"zh-Hant\"",
+        "main.baseLayer": "\"map.layers.detailed\"",
+        "main.isClock24Hour": "true",
+        "length": 32
+    }
+}
