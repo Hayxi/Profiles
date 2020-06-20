@@ -27,7 +27,7 @@
   <ProxyList>
     <Proxy id="100" type="SOCKS5">
       <Address>127.0.0.1</Address>
-      <Port>8889</Port>
+      <Port>8888</Port>
       <Options>48</Options>
     </Proxy>
   </ProxyList>
