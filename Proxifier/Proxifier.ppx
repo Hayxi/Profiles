@@ -15,7 +15,7 @@
     </ProxificationPortableEngine>
     <ProxificationPortableEngine subsystem="64">
       <Location>Winsock</Location>
-      <Type hotpatch="false">Prologue</Type>
+      <Type hotpatch="false">Modcopy</Type>
     </ProxificationPortableEngine>
     <Encryption mode="basic" />
     <HttpProxiesSupport enabled="false" />
@@ -40,7 +40,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Proxy</Name>
-      <Applications>galaxyclient.exe</Applications>
+      <Applications>galaxyclient.exe; launcher.exe</Applications>
       <Action type="Proxy">100</Action>
     </Rule>
     <Rule enabled="true">
