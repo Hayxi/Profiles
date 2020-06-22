@@ -97,7 +97,22 @@
 			"to": "https://tieba.baidu.com"
 		}
 	],
-	"sendHeader": [],
+	"sendHeader": [
+		{
+			"enable": true,
+			"name": "www.dmm.co.jp",
+			"ruleType": "modifySendHeader",
+			"matchType": "domain",
+			"pattern": "www.dmm.co.jp",
+			"exclude": "",
+			"group": "解除 FANZA 地区限制",
+			"isFunction": false,
+			"action": {
+				"name": "accept-language",
+				"value": "ja-JP"
+			}
+		}
+	],
 	"receiveHeader": [],
 	"receiveBody": []
 }
