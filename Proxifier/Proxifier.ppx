@@ -40,7 +40,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Proxy</Name>
-      <Applications>galaxyclient.exe; launcher.exe</Applications>
+      <Applications>galaxyclient.exe; launcher.exe; socialclubhelper.exe</Applications>
       <Action type="Proxy">100</Action>
     </Rule>
     <Rule enabled="true">
