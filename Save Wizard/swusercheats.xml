@@ -344,8 +344,8 @@
       <cheat desc="全武器 × 1" comment="">
         <code>4210F0FC 00000001 40FF0002 00000000 4210F35A 00000001 40030002 00000000</code>
       </cheat>
-      <cheat desc="全防具 × 4" comment="">
-        <code>4210F35C 00000004 40FF0002 00000000 4210F4E2 00000004 40030002 00000000</code>
+      <cheat desc="全防具 × 9" comment="">
+        <code>4210F35C 00000009 40FF0002 00000000 4210F4E2 00000009 40030002 00000000</code>
       </cheat>
       <cheat desc="全能真球 × 10" comment="">
         <code>0010F734 0000000A</code>
