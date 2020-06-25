@@ -7,6 +7,8 @@ host-suffix, nyancat.net, proxy
 host-suffix, psnprofiles.com, proxy
 host-suffix, paypal.com, proxy
 host-suffix, paypalobjects.com, proxy
+host-suffix, pathofexile.com, proxy
+host-suffix, poecdn.com, proxy
 host-suffix, ryancray.com, proxy
 host-suffix, chinaplay.store, direct
 host-suffix, greenmangaming.com, direct
