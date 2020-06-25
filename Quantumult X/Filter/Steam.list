@@ -2,8 +2,6 @@
 user-agent, Steam*, Steam
 host-suffix, fanatical.com, Steam
 host-suffix, humblebundle.com, Steam
-host-suffix, pathofexile.com, Steam
-host-suffix, poecdn.com, Steam
 host-suffix, steamcommunity.com, Steam
 host-suffix, steampowered.com, Steam
 host-suffix, steamstatic.com, Steam
