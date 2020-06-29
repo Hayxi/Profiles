@@ -95,6 +95,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://tieba.baidu.com"
+		},
+		{
+			"enable": true,
+			"name": "psn.a9vg.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https:\\/\\/psn\\.a9vg\\.com",
+			"exclude": "",
+			"group": "重定向 A9VG 图片解析",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://psn.a9vg.com"
 		}
 	],
 	"sendHeader": [
