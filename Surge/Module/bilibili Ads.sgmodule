@@ -2,6 +2,10 @@
 #!desc=Remove bilibili Ads.
 #!system=ios
 
+[Rule]
+URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT
+URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
+
 [MITM]
 hostname = %APPEND% api.bilibili.com, api.live.bilibili.com
 
