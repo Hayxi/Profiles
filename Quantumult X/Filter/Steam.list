@@ -1,5 +1,4 @@
 # > Steam
-user-agent, Steam*, Steam
 host-suffix, fanatical.com, Steam
 host-suffix, humblebundle.com, Steam
 host-suffix, steamcommunity.com, Steam
