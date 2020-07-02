@@ -1,1 +1,2 @@
-[Header Editor - Google Chrome](https://chrome.google.com/webstore/detail/header-editor/eningockdidmgiojffjmkdblpjocbhgh)
+Header Editor 扩展项目主页：
+- https://github.com/FirefoxBar/HeaderEditor
