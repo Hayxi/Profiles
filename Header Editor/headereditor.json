@@ -38,10 +38,10 @@
 		},
 		{
 			"enable": true,
-			"name": "jump2.bdimg.com",
+			"name": "jump*.bdimg.com",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/jump2\\.bdimg\\.com",
+			"pattern": "^https?:\\/\\/jump2?\\.bdimg\\.com",
 			"exclude": "",
 			"group": "重定向百度贴吧异类域名",
 			"isFunction": false,
@@ -107,6 +107,54 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://psn.a9vg.com"
+		},
+		{
+			"enable": true,
+			"name": "wapp.baidu.com/mo/q/m",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/m",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com/f"
+		},
+		{
+			"enable": true,
+			"name": "wapp.baidu.com/mo/q/f",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/f",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com/f"
+		},
+		{
+			"enable": true,
+			"name": "wapp.baidu.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/wapp\\.baidu\\.com",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com"
+		},
+		{
+			"enable": true,
+			"name": "dq.tieba.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/dq\\.tieba\\.com",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com"
 		}
 	],
 	"sendHeader": [
