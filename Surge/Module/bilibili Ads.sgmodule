@@ -10,7 +10,7 @@ URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
 hostname = %APPEND% api.bilibili.com, api.live.bilibili.com
 
 [Script]
-#http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20space.js
+# http-response https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20space.js
 http-response https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20tab.js
 http-response https://app.bilibili.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20feed.js
 http-response https://app.bilibili.com/x/v2/account/mine\?access_key requires-body=1,max-size=0,script-path=https://github.com/onewayticket255/Surge-Script/raw/master/surge%20bilibili%20account.js
