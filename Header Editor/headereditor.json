@@ -155,6 +155,30 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://tieba.baidu.com"
+		},
+		{
+			"enable": true,
+			"name": "store.playstation.com/zh-hans-hk",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/zh\\-hans\\-hk",
+			"exclude": "",
+			"group": "重定向 PlayStation Store 语言",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://store.playstation.com/zh-hant-hk"
+		},
+		{
+			"enable": true,
+			"name": "store.playstation.com/en-hk",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/en\\-hk",
+			"exclude": "",
+			"group": "重定向 PlayStation Store 语言",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://store.playstation.com/zh-hant-hk"
 		}
 	],
 	"sendHeader": [
