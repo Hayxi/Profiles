@@ -40,7 +40,7 @@
     </Rule>
     <Rule enabled="true">
       <Name>Proxy</Name>
-      <Applications>galaxyclient.exe; launcher.exe; socialclubhelper.exe; assassinscreediigame.exe; acbsp.exe; acrsp.exe; aciii.exe; acliberation.exe; ac4bfsp.exe; acc.exe; acu.exe; acs.exe; acorigins.exe; acodyssey.exe; watch_dogs.exe; watchdogs2.exe</Applications>
+      <Applications>galaxyclient.exe; launcher.exe; socialclubhelper.exe; aciii.exe; acliberation.exe; ac4bfsp.exe; acc.exe; acu.exe; acs.exe; acorigins.exe; acodyssey.exe; watch_dogs.exe; watchdogs2.exe</Applications>
       <Action type="Proxy">100</Action>
     </Rule>
     <Rule enabled="true">
