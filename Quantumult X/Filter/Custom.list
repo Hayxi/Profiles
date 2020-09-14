@@ -3,6 +3,8 @@ user-agent, PlayStation*, proxy
 host-suffix, playstation.com, proxy
 host-suffix, playstation.net, proxy
 host-suffix, sonyentertainmentnetwork.com, proxy
+host-suffix, bahamut.com.tw, proxy
+host-suffix, gamer.com.tw, proxy
 host-suffix, nyancat.net, proxy
 host-suffix, psnprofiles.com, proxy
 host-suffix, paypal.com, proxy
