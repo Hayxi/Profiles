@@ -179,6 +179,30 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://store.playstation.com/zh-hans-hk"
+		},
+		{
+			"enable": true,
+			"name": "nga.178.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/nga\\.178\\.com",
+			"exclude": "",
+			"group": "重定向 NGA 异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://bbs.nga.cn"
+		},
+		{
+			"enable": true,
+			"name": "ngabbs.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/ngabbs\\.com",
+			"exclude": "",
+			"group": "重定向 NGA 异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://bbs.nga.cn"
 		}
 	],
 	"sendHeader": [
