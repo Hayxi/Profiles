@@ -203,6 +203,30 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://bbs.nga.cn"
+		},
+		{
+			"enable": true,
+			"name": "psnine.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^http:\\/\\/psnine\\.com",
+			"exclude": "",
+			"group": "重定向 PSN 中文站异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://psnine.com"
+		},
+		{
+			"enable": true,
+			"name": "www.psnine.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.psnine\\.com",
+			"exclude": "",
+			"group": "重定向 PSN 中文站异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://psnine.com"
 		}
 	],
 	"sendHeader": [
