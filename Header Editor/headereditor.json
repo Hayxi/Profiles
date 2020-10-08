@@ -158,15 +158,15 @@
 		},
 		{
 			"enable": true,
-			"name": "store.playstation.com/zh-hant-hk",
+			"name": "store.playstation.com/zh-hans-hk",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/zh\\-hant\\-hk",
+			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/zh\\-hans\\-hk",
 			"exclude": "",
 			"group": "重定向 PlayStation Store 语言",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://store.playstation.com/zh-hans-hk"
+			"to": "https://store.playstation.com/zh-hant-hk"
 		},
 		{
 			"enable": true,
@@ -178,7 +178,7 @@
 			"group": "重定向 PlayStation Store 语言",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://store.playstation.com/zh-hans-hk"
+			"to": "https://store.playstation.com/zh-hant-hk"
 		},
 		{
 			"enable": true,
