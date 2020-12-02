@@ -5,19 +5,19 @@
 			"name": "zh.wikipedia.org",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/zh\\.wikipedia\\.org\\/zh(-\\w*)?",
+			"pattern": "^https?:\\/\\/zh(.m)\\.wikipedia\\.org\\/zh(-\\w*)?",
 			"exclude": "",
 			"group": "重定向 Wikipedia 至 Wikiwand",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://www.wikiwand.com/zh$1"
+			"to": "https://www.wikiwand.com/zh$2"
 		},
 		{
 			"enable": true,
 			"name": "*.wikipedia.org",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.wikipedia\\.org\\/wiki",
+			"pattern": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?(.m)\\.wikipedia\\.org\\/wiki",
 			"exclude": "",
 			"group": "重定向 Wikipedia 至 Wikiwand",
 			"isFunction": false,
