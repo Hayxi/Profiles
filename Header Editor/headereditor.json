@@ -10,7 +10,7 @@
 			"group": "重定向 Wikipedia 至 Wikiwand",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://www.wikiwand.com/zh$2"
+			"to": "https://www.wikiwand.com/zh-hans"
 		},
 		{
 			"enable": true,
@@ -239,6 +239,30 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://bbs.nga.cn"
+		},
+		{
+			"enable": true,
+			"name": "www.bilibili.com/s/video",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video",
+			"exclude": "",
+			"group": "重定向 bilibili 异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.bilibili.com/video"
+		},
+		{
+			"enable": true,
+			"name": "wnacg.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^http:\\/\\/wnacg\\.com",
+			"exclude": "",
+			"group": "重定向 HTTP 至 HTTPS",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://wnacg.com"
 		}
 	],
 	"sendHeader": [
