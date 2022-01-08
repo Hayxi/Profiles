@@ -99,13 +99,13 @@ hdslb.com = server:119.29.29.29
 ^https?:\/\/(www.)?zbrushcn.com/ https://pixologic.com/ 302
 
 # Unlock AdGuard Premium
-^https?:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ https://github.com/langkhach270389/Scripting/raw/master/Adguard.rsp 302
+^https?:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ https://github.com/langkhach270389/Surge-LK/raw/main/scripts/langkhach/adguard.js 302
 
 # Redirect Wikipedia to Wikiwand
 ^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? https://www.wikiwand.com/zh-hans 302
 ^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki https://www.wikiwand.com/$1$2$3 302
 
-# Redirect YouTube to App
+# Redirect URL to YouTube App
 ^https?:\/\/m\.youtube\.com\/watch\?v\= youtube:// 302
 ^https?:\/\/m\.youtube\.com\/playlist\?list\= youtube:///playlist?list= 302
 ^https?:\/\/m\.youtube\.com\/channel\/ youtube://www.youtube.com/channel/ 302
