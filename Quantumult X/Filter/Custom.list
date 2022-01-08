@@ -13,6 +13,7 @@ host-suffix, paypalobjects.com, proxy
 host-suffix, pathofexile.com, proxy
 host-suffix, poecdn.com, proxy
 host-suffix, ryancray.com, proxy
+host, translate.google.cn, direct
 host, translate.googleapis.com, direct
 host-suffix, bgm.tv, direct
 host-suffix, chinaplay.store, direct
