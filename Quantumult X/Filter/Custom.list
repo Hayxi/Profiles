@@ -6,6 +6,7 @@ host-suffix, sonyentertainmentnetwork.com, proxy
 host-suffix, bahamut.com.tw, proxy
 host-suffix, gamer.com.tw, proxy
 host-suffix, hitomi.la, proxy
+host-suffix, mihoyo.com, proxy
 host-suffix, nyancat.net, proxy
 host-suffix, psnprofiles.com, proxy
 host-suffix, paypal.com, proxy
@@ -22,3 +23,4 @@ host-suffix, gog.com, direct
 host-suffix, gog-statics.com, direct
 host-suffix, hayxi.com, direct
 host-suffix, hentaicomic.org, direct
+host-suffix, yuanshen.com, direct
