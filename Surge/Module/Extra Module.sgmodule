@@ -105,6 +105,7 @@ hdslb.com = server:119.29.29.29
 ^https?:\/\/nga\.178\.com https://bbs.nga.cn 302
 ^https?:\/\/ngabbs\.com https://bbs.nga.cn 302
 ^https?:\/\/yues\.org https://bbs.nga.cn 302
+^https?:\/\/g\.nga\.cn https://bbs.nga.cn 302
 
 # Redirect Wikipedia to Wikiwand
 ^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? https://www.wikiwand.com/zh-hans 302
