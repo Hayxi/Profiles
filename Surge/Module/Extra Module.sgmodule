@@ -101,6 +101,11 @@ hdslb.com = server:119.29.29.29
 # Unlock AdGuard Premium
 ^https?:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ https://github.com/langkhach270389/Surge-LK/raw/main/scripts/langkhach/adguard.js 302
 
+# Redirect NGA to bbs.nga.cn
+^https?:\/\/nga\.178\.com https://bbs.nga.cn 302
+^https?:\/\/ngabbs\.com https://bbs.nga.cn 302
+^https?:\/\/yues\.org https://bbs.nga.cn 302
+
 # Redirect Wikipedia to Wikiwand
 ^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? https://www.wikiwand.com/zh-hans 302
 ^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki https://www.wikiwand.com/$1$2$3 302
