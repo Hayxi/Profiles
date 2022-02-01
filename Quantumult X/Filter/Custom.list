@@ -1,3 +1,4 @@
+host, bbs.nga.cn, reject
 user-agent, Pushbullet*, proxy
 user-agent, PlayStation*, proxy
 host-suffix, playstation.com, proxy
