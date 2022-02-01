@@ -263,6 +263,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://wnacg.com"
+		},
+		{
+			"enable": true,
+			"name": "g.nga.cn",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/g\\.nga\\.cn",
+			"exclude": "",
+			"group": "重定向 NGA 异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://bbs.nga.cn"
 		}
 	],
 	"sendHeader": [
