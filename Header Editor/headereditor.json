@@ -230,10 +230,10 @@
 		},
 		{
 			"enable": true,
-			"name": "g.nga.cn",
+			"name": "yues.org",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/g\\.nga\\.cn",
+			"pattern": "^https?:\\/\\/yues\\.org",
 			"exclude": "",
 			"group": "重定向 NGA 异类域名",
 			"isFunction": false,
