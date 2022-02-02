@@ -1,8 +1,7 @@
 USER-AGENT,Pushbullet*
 USER-AGENT,PlayStation*
-DOMAIN-SUFFIX,playstation.com
-DOMAIN-SUFFIX,playstation.net
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN,aka.ms
+DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,hitomi.la
@@ -11,4 +10,8 @@ DOMAIN-SUFFIX,nyancat.net
 DOMAIN-SUFFIX,psnprofiles.com
 DOMAIN-SUFFIX,pathofexile.com
 DOMAIN-SUFFIX,poecdn.com
-DOMAIN-SUFFIX,ryancray.com
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,rsg.sc
