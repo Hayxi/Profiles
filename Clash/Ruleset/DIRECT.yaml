@@ -1,6 +1,7 @@
 payload:
   - DOMAIN,baidu.ryancray.com
   - DOMAIN,cdn.jsdelivr.net
+  - DOMAIN,pub-api-1.bianyuan.xyz
   - DOMAIN,translate.google.cn
   - DOMAIN,translate.googleapis.com
   - DOMAIN-SUFFIX,bgm.tv
