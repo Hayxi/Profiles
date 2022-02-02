@@ -1,0 +1,13 @@
+payload:
+  - DOMAIN,baidu.ryancray.com
+  - DOMAIN,cdn.jsdelivr.net
+  - DOMAIN,translate.google.cn
+  - DOMAIN,translate.googleapis.com
+  - DOMAIN-SUFFIX,bgm.tv
+  - DOMAIN-SUFFIX,chinaplay.store
+  - DOMAIN-SUFFIX,greenmangaming.com
+  - DOMAIN-SUFFIX,gog.com
+  - DOMAIN-SUFFIX,gog-statics.com
+  - DOMAIN-SUFFIX,hayxi.com
+  - DOMAIN-SUFFIX,hentaicomic.org
+  - DOMAIN-SUFFIX,yuanshen.com
