@@ -40,7 +40,7 @@ hdslb.com = server:119.29.29.29
 
 [URL Rewrite]
 # Unlock AdGuard Premium
-^https?:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ https://github.com/langkhach270389/Surge-LK/raw/main/scripts/langkhach/adguard.js 302
+^https?:\/\/mobile-api\.adguard\.com\/api\/1\.0\/ios_validate_receipt$ https://cdn.jsdelivr.net/gh/langkhach270389/Surge-LK@main/scripts/langkhach/adguard.js 302
 
 # Redirect NGA to bbs.nga.cn
 ^https?:\/\/nga\.178\.com https://bbs.nga.cn 302
