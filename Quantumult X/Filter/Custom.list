@@ -1,5 +1,3 @@
-# REJECT
-host, bbs.nga.cn, reject
 # Proxy
 user-agent, Pushbullet*, proxy
 user-agent, PlayStation*, proxy
