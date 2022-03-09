@@ -1,5 +1,3 @@
-# Priority
-host-suffix, dl.playstation.net, direct
 # Proxy
 user-agent, Pushbullet*, proxy
 user-agent, PlayStation*, proxy
