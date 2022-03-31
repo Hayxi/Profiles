@@ -4,6 +4,7 @@ payload:
   - DOMAIN,pub-api-1.bianyuan.xyz
   - DOMAIN,translate.google.cn
   - DOMAIN,translate.googleapis.com
+  - DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,chinaplay.store
   - DOMAIN-SUFFIX,greenmangaming.com
