@@ -20,8 +20,6 @@ host-suffix, rsg.sc, proxy
 host, baidu.ryancray.com, direct
 host, cdn.jsdelivr.net, direct
 host, pub-api-1.bianyuan.xyz, direct
-host, translate.google.cn, direct
-host, translate.googleapis.com, direct
 host-suffix, bangumi.tv, direct
 host-suffix, bgm.tv, direct
 host-suffix, chinaplay.store, direct
