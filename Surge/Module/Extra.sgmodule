@@ -1,42 +1,35 @@
 #!name=补充
 #!desc=各类补充规则
-#!system=ios
 
 [Host]
-*.taobao.com = server:223.5.5.5
-*.tmall.com = server:223.5.5.5
-*.jd.com = server:119.29.29.29
-*.qq.com = server:119.29.29.29
-*.tencent.com = server:119.29.29.29
-*.alipay.com = server:223.5.5.5
-*.alicdn.com = server:223.5.5.5
-*.aliyun.com = server:223.5.5.5
-*.weixin.com = server:119.29.29.29
-*.163.com = server:119.29.29.29
-*.126.com = server:119.29.29.29
-*.126.net = server:119.29.29.29
-*.127.net = server:119.29.29.29
-*.netease.com = server:119.29.29.29
-*.mi.com = server:119.29.29.29
-*.xiaomi.com = server:119.29.29.29
-*.bilibili.com = server:119.29.29.29
-hdslb.com = server:119.29.29.29
+# > Firebase Cloud Messaging
+mtalk.google.com = 108.177.125.188
 
-[Header Rewrite]
-# > 腾讯
-^*.qpic.cn header-replace User-Agent WeChat/6.5.22.32 CFNetwork/889.9 Darwin/17.2.0
-^*.qpic.cn header-del Referer
-# > 网易
-^*.ph.126.net header-del Referer
-# > 知乎
-^*.zhimg.com header-del Referer
-^https?:\/\/www\.zhihu\.com\/question header-replace User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
-# > 中文业界资讯站
-^*.cnbetacdn.com header-del Referer
-# > 百度
-^*.bdimg.com header-del Referer
-^https?:\/\/tieba\.baidu\.com header-replace User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
-^https?:\/\/zhidao\.baidu\.com header-replace User-Agent Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+# > Google Dl
+dl.google.com = server:119.29.29.29
+dl.l.google.com = server:119.29.29.29
+update.googleapis.com = server:119.29.29.29
+
+# > PlayStation
+*.dl.playstation.net = server:119.29.29.29
+
+# > Router Admin Panel
+amplifi.lan = server:syslib // Ubiquiti Amplifi Router
+router.synology.com = server:syslib // Synology Router
+sila.razer.com = server:syslib // Razer Sila Router
+router.asus.com = server:syslib // Asus Router
+routerlogin.net = server:syslib // Netgear Router
+orbilogin.com = server:syslib // Netgear Obri Router
+www.LinksysSmartWiFi.com = server:syslib // Linksys Router
+LinksysSmartWiFi.com = server:syslib // Linksys Router
+myrouter.local = server:syslib // Linksys Router
+www.miwifi.com = server:syslib // Xiaomi Mi WiFi Router
+miwifi.com = server:syslib // Xiaomi Mi WiFi Router
+mediarouter.home = server:syslib // Huawei Router
+tplogin.cn = server:syslib // TP-Link Router
+tplinklogin.net = server:syslib // TP-Link Router
+melogin.cn = server:syslib // MERCURY Router
+falogin.cn = server:syslib // FAST Router
 
 [URL Rewrite]
 # Unlock AdGuard Premium
@@ -58,4 +51,4 @@ hdslb.com = server:119.29.29.29
 ^https?:\/\/m\.youtube\.com\/channel\/ youtube://www.youtube.com/channel/ 302
 
 [MITM]
-hostname = %INSERT% *.wikipedia.org, m.youtube.com, mobile-api.adguard.com, nga.178.com, ngabbs.com, g.nga.cn, yues.org, tieba.baidu.com, zhidao.baidu.com
+hostname = %INSERT% *.wikipedia.org, m.youtube.com, mobile-api.adguard.com, nga.178.com, ngabbs.com, g.nga.cn, yues.org
