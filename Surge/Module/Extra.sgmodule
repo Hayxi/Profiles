@@ -33,7 +33,7 @@ falogin.cn = server:syslib // FAST Router
 
 [URL Rewrite]
 # Unlock AdGuard Premium
-^https?:\/\/mobile-api\.adguard\.com\/api\/.+\/ios_validate_receipt\/ADG_EXT https://cdn.jsdelivr.net/gh/langkhach270389/Surge-LK@main/scripts/langkhach/adguard.js 302
+^https?:\/\/mobile-api\.adguard\.com\/api\/.+\/ios_validate_receipt\/ADG_EXT https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/adguard.js 302
 
 # Redirect NGA to bbs.nga.cn
 ^https?:\/\/nga\.178\.com https://bbs.nga.cn 302

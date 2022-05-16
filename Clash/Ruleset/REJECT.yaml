@@ -1,5 +1,5 @@
 payload:
-  - DOMAIN,p1-play.edge4k.com
-  - DOMAIN,p2-play.edge4k.com
-  - DOMAIN,play.kakao.com
-  - DOMAIN,stat.tiara.kakao.com
+  - DOMAIN, p1-play.edge4k.com
+  - DOMAIN, p2-play.edge4k.com
+  - DOMAIN, play.kakao.com
+  - DOMAIN, stat.tiara.kakao.com
