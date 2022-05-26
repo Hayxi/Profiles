@@ -292,10 +292,10 @@
 	"sendHeader": [
 		{
 			"enable": true,
-			"name": "www.dmm.co.jp",
+			"name": "book.dmm.co.jp",
 			"ruleType": "modifySendHeader",
 			"matchType": "domain",
-			"pattern": "www.dmm.co.jp",
+			"pattern": "book.dmm.co.jp",
 			"exclude": "",
 			"group": "解除 FANZA 地区限制",
 			"isFunction": false,
@@ -306,10 +306,10 @@
 		},
 		{
 			"enable": true,
-			"name": "book.dmm.co.jp",
+			"name": "www.dmm.co.jp",
 			"ruleType": "modifySendHeader",
 			"matchType": "domain",
-			"pattern": "book.dmm.co.jp",
+			"pattern": "www.dmm.co.jp",
 			"exclude": "",
 			"group": "解除 FANZA 地区限制",
 			"isFunction": false,
