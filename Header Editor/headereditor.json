@@ -275,6 +275,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://bbs.nga.cn"
+		},
+		{
+			"enable": true,
+			"name": "404.website",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/404\\.website",
+			"exclude": "",
+			"group": "重定向 Anime 字幕论坛镜像站网址",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://bbs.acgrip.com"
 		}
 	],
 	"sendHeader": [
