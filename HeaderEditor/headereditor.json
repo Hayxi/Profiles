@@ -287,6 +287,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://bbs.acgrip.com"
+		},
+		{
+			"enable": true,
+			"name": "forum.javcdn.cc/i.imgur.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/forum\\.javcdn\\.cc\\/i\\.imgur\\.com",
+			"exclude": "",
+			"group": "重定向 JavBus 图片解析",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://i.imgur.com"
 		}
 	],
 	"sendHeader": [
