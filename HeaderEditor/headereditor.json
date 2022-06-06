@@ -317,6 +317,20 @@
 				"name": "accept-language",
 				"value": "ja-JP"
 			}
+		},
+		{
+			"enable": true,
+			"name": "bgm.tv&south-plus.net",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "bgm\\.tv|south-plus\\.net",
+			"exclude": "",
+			"group": "保持网站 User-Agent 不变化",
+			"isFunction": false,
+			"action": {
+				"name": "user-agent",
+				"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33"
+			}
 		}
 	],
 	"receiveHeader": [],
