@@ -287,6 +287,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://bbs.acgrip.com"
+		},
+		{
+			"enable": true,
+			"name": "bangumi.tv&chii.in",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?://(doujin.)?(?:bangumi|chii).(?:tv|in)/(.*$)",
+			"exclude": "",
+			"group": "重定向 Bangumi 异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://$1bgm.tv/$2"
 		}
 	],
 	"sendHeader": [
