@@ -2,18 +2,6 @@
 	"request": [
 		{
 			"enable": true,
-			"name": "*.wikipedia.org",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)",
-			"exclude": "",
-			"group": "重定向 Wikipedia 至 Wikiwand",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://www.wikiwand.com/$1$2$3/$5"
-		},
-		{
-			"enable": true,
 			"name": "zh.wikipedia.org",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -23,6 +11,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://www.wikiwand.com/zh-hans/$3"
+		},
+		{
+			"enable": true,
+			"name": "*.wikipedia.org",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)",
+			"exclude": "",
+			"group": "重定向 Wikipedia 至 Wikiwand",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.wikiwand.com/$1$2$3/$5"
 		},
 		{
 			"enable": true,
