@@ -36,19 +36,16 @@ falogin.cn = server:syslib // FAST Router
 ^https?:\/\/mobile-api\.adguard\.com\/api\/.+\/ios_validate_receipt\/ADG_EXT https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/adguard.js 302
 
 # Redirect NGA to bbs.nga.cn
-^https?:\/\/nga\.178\.com https://bbs.nga.cn 302
-^https?:\/\/ngabbs\.com https://bbs.nga.cn 302
-^https?:\/\/g\.nga\.cn https://bbs.nga.cn 302
-^https?:\/\/yues\.org https://bbs.nga.cn 302
+^https?:\/\/(?:nga\.178|ngabbs|g\.nga|yues)\.(?:com|cn|org)\/(.*$) https://bbs.nga.cn/$1 302
 
 # Redirect Wikipedia to Wikiwand
-^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)? https://www.wikiwand.com/zh-hans 302
-^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki https://www.wikiwand.com/$1$2$3 302
+^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?\/(.*$) https://www.wikiwand.com/zh-hans/$3 302
+^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki\/(.*$) https://www.wikiwand.com/$1$2$3/$5 302
 
 # Redirect URL to YouTube App
-^https?:\/\/m\.youtube\.com\/watch\?v\= youtube:// 302
-^https?:\/\/m\.youtube\.com\/playlist\?list\= youtube:///playlist?list= 302
-^https?:\/\/m\.youtube\.com\/channel\/ youtube://www.youtube.com/channel/ 302
+^https?:\/\/m\.youtube\.com\/watch\?v\=(.*$) youtube://$1 302
+^https?:\/\/m\.youtube\.com\/playlist\?list\=(.*$) youtube:///playlist?list=$1 302
+^https?:\/\/m\.youtube\.com\/channel\/(.*$) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
 hostname = %INSERT% *.wikipedia.org, m.youtube.com, mobile-api.adguard.com, nga.178.com, ngabbs.com, g.nga.cn, yues.org
