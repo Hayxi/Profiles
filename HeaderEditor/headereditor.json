@@ -118,7 +118,7 @@
 			"group": "重定向 PSN 中文站异类域名",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://psnine.com/$1"
+			"to": "https://psnine.com/$2"
 		},
 		{
 			"enable": true,
