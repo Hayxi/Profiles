@@ -33,7 +33,7 @@ falogin.cn = server:syslib // FAST Router
 
 [URL Rewrite]
 # Unlock AdGuard Premium
-^https?:\/\/mobile-api\.adguard\.com\/api\/.+\/ios_validate_receipt\/ADG_EXT https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/adguard.js 302
+^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/ADG_EXT https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/adguard.js 302
 
 # Redirect NGA to bbs.nga.cn
 ^https?:\/\/(?:nga\.178|ngabbs|g\.nga|yues)\.(?:com|cn|org)\/(.*$) https://bbs.nga.cn/$1 302
@@ -48,4 +48,4 @@ falogin.cn = server:syslib // FAST Router
 ^https?:\/\/m\.youtube\.com\/channel\/(.*$) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
-hostname = %INSERT% *.wikipedia.org, m.youtube.com, mobile-api.adguard.com, nga.178.com, ngabbs.com, g.nga.cn, yues.org
+hostname = %INSERT% *.wikipedia.org, m.youtube.com, mobile-api.adguard.org, nga.178.com, ngabbs.com, g.nga.cn, yues.org
