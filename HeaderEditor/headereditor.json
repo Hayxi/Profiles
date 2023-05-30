@@ -184,20 +184,6 @@
 	"sendHeader": [
 		{
 			"enable": true,
-			"name": "book.dmm.co.jp&www.dmm.co.jp",
-			"ruleType": "modifySendHeader",
-			"matchType": "regexp",
-			"pattern": "(book|www)\\.dmm\\.co\\.jp",
-			"exclude": "",
-			"group": "解除 FANZA 地区限制",
-			"isFunction": false,
-			"action": {
-				"name": "accept-language",
-				"value": "ja-JP"
-			}
-		},
-		{
-			"enable": true,
 			"name": "bgm.tv&south-plus.net",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
