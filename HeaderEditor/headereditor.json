@@ -195,6 +195,20 @@
 				"name": "user-agent",
 				"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0"
 			}
+		},
+		{
+			"enable": true,
+			"name": "battle.net&blizzard.com",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "battle\\.net|blizzard\\.com",
+			"exclude": "",
+			"group": "防止 Battle.net 强制锁定简体中文",
+			"isFunction": false,
+			"action": {
+				"name": "accept-language",
+				"value": "zh-TW"
+			}
 		}
 	],
 	"receiveHeader": [],
