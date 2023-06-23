@@ -211,6 +211,21 @@
 			}
 		}
 	],
-	"receiveHeader": [],
+	"receiveHeader": [
+		{
+			"enable": true,
+			"name": "clickme.net&forum.gamer.com.tw",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "clickme\\.net|forum\\.gamer\\.com\\.tw",
+			"exclude": "",
+			"group": "为 HTML 指明 lang 属性为繁体中文",
+			"isFunction": false,
+			"action": {
+				"name": "content-language",
+				"value": "zh-TW"
+			}
+		}
+	],
 	"receiveBody": []
 }
