@@ -39,8 +39,8 @@ falogin.cn = server:syslib // FAST Router
 ^https?:\/\/(?:nga\.178|ngabbs|g\.nga|yues)\.(?:com|cn|org)\/(.*$) https://bbs.nga.cn/$1 302
 
 # Redirect Wikipedia to Wikiwand
-^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?\/(.*$) https://www.wikiwand.com/zh-hans/$3 302
-^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki\/(.*$) https://www.wikiwand.com/$1$2$3/$5 302
+# ^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?\/(.*$) https://www.wikiwand.com/zh-hans/$3 302
+# ^https?:\/\/(\w*)(-\w*)?(-\w*)?\.(m.)?wikipedia\.org\/wiki\/(.*$) https://www.wikiwand.com/$1$2$3/$5 302
 
 # Redirect URL to YouTube App
 ^https?:\/\/m\.youtube\.com\/watch\?v\=(.*$) youtube://$1 302
@@ -48,4 +48,4 @@ falogin.cn = server:syslib // FAST Router
 ^https?:\/\/m\.youtube\.com\/channel\/(.*$) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
-hostname = %INSERT% *.wikipedia.org, m.youtube.com, mobile-api.adguard.org, nga.178.com, ngabbs.com, g.nga.cn, yues.org
+hostname = %INSERT% m.youtube.com, mobile-api.adguard.org, nga.178.com, ngabbs.com, g.nga.cn, yues.org
