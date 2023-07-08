@@ -89,7 +89,7 @@
 			"name": "store.playstation.com/en-hk&zh-hans-hk",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en\\-hk|zh-hans-hk)\\/(.*$)",
+			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en-hk|zh-hans-hk)\\/(.*$)",
 			"exclude": "",
 			"group": "重定向 PlayStation Store 语言",
 			"isFunction": false,
@@ -211,21 +211,6 @@
 			}
 		}
 	],
-	"receiveHeader": [
-		{
-			"enable": true,
-			"name": "clickme.net&forum.gamer.com.tw",
-			"ruleType": "modifyReceiveHeader",
-			"matchType": "regexp",
-			"pattern": "clickme\\.net|forum\\.gamer\\.com\\.tw",
-			"exclude": "",
-			"group": "为 HTML 指明 lang 属性为繁体中文",
-			"isFunction": false,
-			"action": {
-				"name": "content-language",
-				"value": "zh-TW"
-			}
-		}
-	],
+	"receiveHeader": [],
 	"receiveBody": []
 }
