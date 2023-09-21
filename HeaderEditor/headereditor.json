@@ -98,15 +98,15 @@
 		},
 		{
 			"enable": true,
-			"name": "nga.178.com&ngabbs.com&g.nga.cn&yues.org",
+			"name": "bbs.nga.cn&ngabbs.com&g.nga.cn&yues.org",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(?:nga\\.178|ngabbs|g\\.nga|yues)\\.(?:com|cn|org)\\/(.*$)",
+			"pattern": "^https?:\\/\\/(?:bbs\\.nga|ngabbs|g\\.nga|yues)\\.(?:cn|com|org)\\/(.*$)",
 			"exclude": "",
 			"group": "重定向 NGA 异类域名",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://bbs.nga.cn/$1"
+			"to": "https://nga.178.com/$1"
 		},
 		{
 			"enable": true,
@@ -182,7 +182,7 @@
 		},
 		{
 			"enable": true,
-			"name": "link.zhihu.com",
+			"name": "zhihu.com",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/link\\.zhihu\\.com\\/\\?target=(.*$)",
@@ -198,6 +198,30 @@
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/sspai\\.com\\/link\\?target=(.*$)",
+			"exclude": "",
+			"group": "避免网站外链访问确认",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "pixiv.net",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.pixiv\\.net\\/jump\\.php\\?(.*$)",
+			"exclude": "",
+			"group": "避免网站外链访问确认",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "csdn.net",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/link\\.csdn\\.net\\/\\?target=(.*$)",
 			"exclude": "",
 			"group": "避免网站外链访问确认",
 			"isFunction": false,
@@ -232,6 +256,20 @@
 			"action": {
 				"name": "accept-language",
 				"value": "zh-TW"
+			}
+		},
+		{
+			"enable": true,
+			"name": "sinaimg.cn",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "sinaimg\\.cn",
+			"exclude": "",
+			"group": "伪造微博图床 Referer",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://weibo.com/"
 			}
 		}
 	],
