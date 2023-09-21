@@ -35,8 +35,8 @@ falogin.cn = server:syslib // FAST Router
 # Unlock AdGuard Premium
 ^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/ADG_EXT https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/adguard.js 302
 
-# Redirect NGA to bbs.nga.cn
-^https?:\/\/(?:nga\.178|ngabbs|g\.nga|yues)\.(?:com|cn|org)\/(.*$) https://bbs.nga.cn/$1 302
+# Redirect NGA to nga.178.com
+^https?:\/\/(?:bbs\.nga|ngabbs|g\.nga|yues)\.(?:cn|com|org)\/(.*$) https://nga.178.com/$1 302
 
 # Redirect Wikipedia to Wikiwand
 # ^https?:\/\/zh\.(m.)?wikipedia\.org\/zh(-\w*)?\/(.*$) https://www.wikiwand.com/zh-hans/$3 302
@@ -48,4 +48,4 @@ falogin.cn = server:syslib // FAST Router
 ^https?:\/\/m\.youtube\.com\/channel\/(.*$) youtube://www.youtube.com/channel/$1 302
 
 [MITM]
-hostname = %INSERT% m.youtube.com, mobile-api.adguard.org, nga.178.com, ngabbs.com, g.nga.cn, yues.org
+hostname = %INSERT% m.youtube.com, mobile-api.adguard.org, bbs.nga.cn, ngabbs.com, g.nga.cn, yues.org
