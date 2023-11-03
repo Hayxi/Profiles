@@ -1,7 +1,7 @@
 payload:
-  - DOMAIN, 404.website
-  - DOMAIN, oupai.one
-  - DOMAIN, p.sda1.dev
-  - DOMAIN-SUFFIX, acgrip.com
-  - DOMAIN-SUFFIX, chinaplay.store
-  - DOMAIN-SUFFIX, greenmangaming.com
+  - DOMAIN,404.website
+  - DOMAIN,oupai.one
+  - DOMAIN,p.sda1.dev
+  - DOMAIN-SUFFIX,acgrip.com
+  - DOMAIN-SUFFIX,chinaplay.store
+  - DOMAIN-SUFFIX,greenmangaming.com
