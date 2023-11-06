@@ -227,15 +227,63 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "facebook.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/l\\.facebook\\.com\\/l\\.php\\?u=(.*$)",
+			"exclude": "",
+			"group": "避免网站外链访问确认",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "gamer.com.tw",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/ref\\.gamer\\.com\\.tw\\/redir\\.php\\?url=(.*$)",
+			"exclude": "",
+			"group": "避免网站外链访问确认",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "steamcommunity.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/steamcommunity\\.com\\/linkfilter\\/\\?url=(.*$)",
+			"exclude": "",
+			"group": "避免网站外链访问确认",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
+			"name": "jianshu.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/links\\.jianshu\\.com\\/go\\?to=(.*$)",
+			"exclude": "",
+			"group": "避免网站外链访问确认",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
 		}
 	],
 	"sendHeader": [
 		{
 			"enable": true,
-			"name": "bgm.tv&south-plus.net",
+			"name": "bgm.tv&greasyfork.org&south-plus.net",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "bgm\\.tv|south-plus\\.net",
+			"pattern": "bgm\\.tv|greasyfork\\.org|south-plus\\.net",
 			"exclude": "",
 			"group": "保持网站 User-Agent 不变化",
 			"isFunction": false,
