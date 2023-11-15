@@ -98,10 +98,10 @@
 		},
 		{
 			"enable": true,
-			"name": "bbs.nga.cn&ngabbs.com&g.nga.cn&yues.org",
+			"name": "bbs.nga.cn&g.nga.cn&ngabbs.com&yues.org",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(?:bbs\\.nga|ngabbs|g\\.nga|yues)\\.(?:cn|com|org)\\/(.*$)",
+			"pattern": "^https?:\\/\\/(?:bbs\\.nga|g\\.nga|ngabbs|yues)\\.(?:cn|com|org)\\/(.*$)",
 			"exclude": "",
 			"group": "重定向 NGA 异类域名",
 			"isFunction": false,
