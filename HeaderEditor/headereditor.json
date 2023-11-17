@@ -170,15 +170,15 @@
 		},
 		{
 			"enable": true,
-			"name": "www.2dfan.com&2dfan.org&galge.top&galge.fun",
+			"name": "2dfan.com&galge.top",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(?:(www\\.)?2dfan|galge)\\.(?:com|org|top|fun)\\/(.*$)",
+			"pattern": "^https?:\\/\\/(?:2dfan|galge)\\.(?:com|top)\\/(.*$)",
 			"exclude": "",
 			"group": "重定向 2DFan 异类域名",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://2dfan.com/$2"
+			"to": "https://2dfan.org/$1"
 		},
 		{
 			"enable": true,
