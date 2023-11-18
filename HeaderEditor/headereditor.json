@@ -280,10 +280,10 @@
 	"sendHeader": [
 		{
 			"enable": true,
-			"name": "bgm.tv&greasyfork.org&south-plus.net",
+			"name": "bgm.tv&south-plus.net",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "bgm\\.tv|greasyfork\\.org|south-plus\\.net",
+			"pattern": "bgm\\.tv|south-plus\\.net",
 			"exclude": "",
 			"group": "保持网站 User-Agent 不变化",
 			"isFunction": false,
@@ -299,11 +299,25 @@
 			"matchType": "regexp",
 			"pattern": "battle\\.net|blizzard\\.com",
 			"exclude": "",
-			"group": "防止 Battle.net 强制锁定简体中文",
+			"group": "优先 Battle.net 显示语言为繁体中文",
 			"isFunction": false,
 			"action": {
 				"name": "accept-language",
 				"value": "zh-TW"
+			}
+		},
+		{
+			"enable": true,
+			"name": "fc2.com",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "fc2\\.com",
+			"exclude": "",
+			"group": "优先 fc2.com 显示语言为日语",
+			"isFunction": false,
+			"action": {
+				"name": "accept-language",
+				"value": "ja-JP"
 			}
 		},
 		{
