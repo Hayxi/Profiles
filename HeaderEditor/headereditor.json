@@ -26,30 +26,6 @@
 		},
 		{
 			"enable": true,
-			"name": "wapp.baidu.com/mo/q/f&m",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/(?:f|m)\\/(.*$)",
-			"exclude": "",
-			"group": "重定向百度贴吧异类域名",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://tieba.baidu.com/f/$1"
-		},
-		{
-			"enable": true,
-			"name": "c.tieba.baidu.com&dq.tieba.com&jump.bdimg.com&wapp.baidu.com&www.tieba.com",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(?:c\\.tieba\\.baidu|dq\\.tieba|jump2?\\.bdimg|wapp\\.baidu|www\\.tieba)\\.com\\/(.*$)",
-			"exclude": "",
-			"group": "重定向百度贴吧异类域名",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://tieba.baidu.com/$1"
-		},
-		{
-			"enable": true,
 			"name": "i.17173cdn.com",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -62,15 +38,15 @@
 		},
 		{
 			"enable": true,
-			"name": "item.m.jd.com",
+			"name": "2dfan.com&galge.top",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/item\\.m\\.jd\\.com\\/product\\/(.*$)",
+			"pattern": "^https?:\\/\\/(?:2dfan|galge)\\.(?:com|top)\\/(.*$)",
 			"exclude": "",
-			"group": "重定向京东移动版网址",
+			"group": "重定向 2DFan 异类域名",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://item.jd.com/$1"
+			"to": "https://2dfan.org/$1"
 		},
 		{
 			"enable": true,
@@ -83,66 +59,6 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "http://psn.a9vg.com/$1"
-		},
-		{
-			"enable": true,
-			"name": "store.playstation.com/en-hk&zh-hans-hk",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en-hk|zh-hans-hk)\\/(.*$)",
-			"exclude": "",
-			"group": "重定向 PlayStation Store 语言",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://store.playstation.com/zh-hant-hk/$1"
-		},
-		{
-			"enable": true,
-			"name": "bbs.nga.cn&g.nga.cn&ngabbs.com&yues.org",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(?:bbs\\.nga|g\\.nga|ngabbs|yues)\\.(?:cn|com|org)\\/(.*$)",
-			"exclude": "",
-			"group": "重定向 NGA 异类域名",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://nga.178.com/$1"
-		},
-		{
-			"enable": true,
-			"name": "www.psnine.com",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(www\\.)?psnine\\.com\\/(.*$)",
-			"exclude": "",
-			"group": "重定向 PSN 中文站异类域名",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://psnine.com/$2"
-		},
-		{
-			"enable": true,
-			"name": "www.bilibili.com/s/video",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video\\/(.*$)",
-			"exclude": "",
-			"group": "重定向 bilibili 异类域名",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://www.bilibili.com/video/$1"
-		},
-		{
-			"enable": true,
-			"name": "wnacg.com",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^http:\\/\\/wnacg\\.com\\/(.*$)",
-			"exclude": "",
-			"group": "重定向 HTTP 至 HTTPS",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://wnacg.com/$1"
 		},
 		{
 			"enable": true,
@@ -170,15 +86,99 @@
 		},
 		{
 			"enable": true,
-			"name": "2dfan.com&galge.top",
+			"name": "www.bilibili.com/s/video",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(?:2dfan|galge)\\.(?:com|top)\\/(.*$)",
+			"pattern": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video\\/(.*$)",
 			"exclude": "",
-			"group": "重定向 2DFan 异类域名",
+			"group": "重定向 bilibili 异类域名",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://2dfan.org/$1"
+			"to": "https://www.bilibili.com/video/$1"
+		},
+		{
+			"enable": true,
+			"name": "wnacg.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^http:\\/\\/wnacg\\.com\\/(.*$)",
+			"exclude": "",
+			"group": "重定向 HTTP 至 HTTPS",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://wnacg.com/$1"
+		},
+		{
+			"enable": true,
+			"name": "bbs.nga.cn&g.nga.cn&ngabbs.com&yues.org",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(?:bbs\\.nga|g\\.nga|ngabbs|yues)\\.(?:cn|com|org)\\/(.*$)",
+			"exclude": "",
+			"group": "重定向 NGA 异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://nga.178.com/$1"
+		},
+		{
+			"enable": true,
+			"name": "store.playstation.com/en-hk&zh-hans-hk",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en-hk|zh-hans-hk)\\/(.*$)",
+			"exclude": "",
+			"group": "重定向 PlayStation Store 语言",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://store.playstation.com/zh-hant-hk/$1"
+		},
+		{
+			"enable": true,
+			"name": "www.psnine.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(www\\.)?psnine\\.com\\/(.*$)",
+			"exclude": "",
+			"group": "重定向 PSN 中文站异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://psnine.com/$2"
+		},
+		{
+			"enable": true,
+			"name": "wapp.baidu.com/mo/q/f&m",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/(?:f|m)\\/(.*$)",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com/f/$1"
+		},
+		{
+			"enable": true,
+			"name": "c.tieba.baidu.com&dq.tieba.com&jump.bdimg.com&wapp.baidu.com&www.tieba.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(?:c\\.tieba\\.baidu|dq\\.tieba|jump2?\\.bdimg|wapp\\.baidu|www\\.tieba)\\.com\\/(.*$)",
+			"exclude": "",
+			"group": "重定向百度贴吧异类域名",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://tieba.baidu.com/$1"
+		},
+		{
+			"enable": true,
+			"name": "item.m.jd.com",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/item\\.m\\.jd\\.com\\/product\\/(.*$)",
+			"exclude": "",
+			"group": "重定向京东移动版网址",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://item.jd.com/$1"
 		},
 		{
 			"enable": true,
@@ -294,6 +294,20 @@
 		},
 		{
 			"enable": true,
+			"name": "sinaimg.cn",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "sinaimg\\.cn",
+			"exclude": "",
+			"group": "伪造微博图床 Referer",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": "https://weibo.com/"
+			}
+		},
+		{
+			"enable": true,
 			"name": "battle.net&blizzard.com",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
@@ -318,20 +332,6 @@
 			"action": {
 				"name": "accept-language",
 				"value": "ja-JP"
-			}
-		},
-		{
-			"enable": true,
-			"name": "sinaimg.cn",
-			"ruleType": "modifySendHeader",
-			"matchType": "regexp",
-			"pattern": "sinaimg\\.cn",
-			"exclude": "",
-			"group": "伪造微博图床 Referer",
-			"isFunction": false,
-			"action": {
-				"name": "referer",
-				"value": "https://weibo.com/"
 			}
 		}
 	],
