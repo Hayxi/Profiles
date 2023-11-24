@@ -233,7 +233,7 @@
 			"name": "重定向 V2EX 异类域名",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/((?:cn|fast|jp)\\.)?v2ex\\.com\\/(.*$)",
+			"pattern": "^https?:\\/\\/((?:cn|de|fast|hk|jp|origin)\\.)?v2ex\\.com\\/(.*$)",
 			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
