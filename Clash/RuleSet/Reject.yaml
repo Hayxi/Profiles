@@ -1,0 +1,5 @@
+payload:
+  - PROCESS-NAME,CCleaner64.exe
+  - AND,((PROCESS-NAME,1Password.exe),(DOMAIN,c.1password.com))
+  - AND,((PROCESS-NAME,PotPlayerMini64.exe),(OR,((DOMAIN,p1-play.edge4k.com),(DOMAIN,p2-play.edge4k.com),(DOMAIN,play.kakao.com),(DOMAIN,stat.tiara.kakao.com))))
+  - AND,((NETWORK,UDP),(DST-PORT,443))
