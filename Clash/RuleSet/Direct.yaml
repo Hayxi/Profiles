@@ -4,4 +4,3 @@ payload:
   - PROCESS-NAME,leishenSdk.exe
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,socksengine.exe
-  - AND,((PROCESS-NAME,clash),(DOMAIN,api.wcc.best))
