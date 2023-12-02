@@ -2,5 +2,3 @@ host, api.cn2.pw, direct
 host, api.wcc.best, direct
 host, iosapps.itunes.apple.com, direct
 host, p.sda1.dev, direct
-host-suffix, msftconnecttest.com, direct
-host-suffix, msftncsi.com, direct
