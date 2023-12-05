@@ -1,2 +1,2 @@
 host, javdb.com, JavDB
-host, jdbstatic.com, JavDB
+host-suffix, jdbstatic.com, JavDB
