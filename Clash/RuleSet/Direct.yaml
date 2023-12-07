@@ -1,6 +1,4 @@
 payload:
-  - PROCESS-NAME,baidunetdiskhost.exe
-  - PROCESS-NAME,DownloadSDKServer.exe
-  - PROCESS-NAME,leishenSdk.exe
-  - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,socksengine.exe
+  - DOMAIN,api.cn2.pw
+  - DOMAIN,api.wcc.best
+  - DOMAIN,p.sda1.dev

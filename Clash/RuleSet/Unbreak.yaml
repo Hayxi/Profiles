@@ -1,0 +1,8 @@
+payload:
+  - DOMAIN,iosapps.itunes.apple.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - PROCESS-NAME,baidunetdiskhost.exe
+  - PROCESS-NAME,DownloadSDKServer.exe
+  - PROCESS-NAME,leishenSdk.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,socksengine.exe
