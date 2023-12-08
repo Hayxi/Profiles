@@ -1,5 +1,10 @@
 payload:
-  - DOMAIN,api.cn2.pw
-  - DOMAIN,api.wcc.best
-  - DOMAIN,p.sda1.dev
-  - DOMAIN-SUFFIX,hand992.com
+  - DOMAIN,iosapps.itunes.apple.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - PROCESS-NAME,baidunetdisk.exe
+  - PROCESS-NAME,baidunetdiskhost.exe
+  - PROCESS-NAME,DownloadSDKServer.exe
+  - PROCESS-NAME,leishenSdk.exe
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,socksengine.exe
+  - PROCESS-NAME,Thunder.exe

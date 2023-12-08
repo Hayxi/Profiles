@@ -1,4 +1,2 @@
-host, api.cn2.pw, direct
-host, api.wcc.best, direct
-host, p.sda1.dev, direct
-host-suffix, hand992.com, direct
+host, iosapps.itunes.apple.com, direct
+host-suffix, dl.delivery.mp.microsoft.com, direct

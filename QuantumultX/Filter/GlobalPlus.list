@@ -1,6 +1,9 @@
 host, db.msin.jp, proxy
+host, edit.sunfox.org, proxy
+host, time.is, proxy
 host, vcards.metowolf.com, proxy
 host, www.surge-activation.com, proxy
 host-suffix, bgm.tv, proxy
+host-suffix, ifreesite.com, proxy
 host-suffix, immersivetranslate.com, proxy
 host-suffix, metacubex.one, proxy
