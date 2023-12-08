@@ -7,5 +7,6 @@ host, www.surge-activation.com, proxy
 host-suffix, bgm.tv, proxy
 host-suffix, ifreesite.com, proxy
 host-suffix, immersivetranslate.com, proxy
+host-suffix, listary.com, proxy
 host-suffix, metacubex.one, proxy
 host-suffix, msftncsi.com, proxy
