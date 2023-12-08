@@ -2,7 +2,11 @@ host, api.bilibili.com, 哔哩哔哩
 host, app.bilibili.com, 哔哩哔哩
 host, grpc.biliapi.net, 哔哩哔哩
 host, m.bilibili.com, 哔哩哔哩
+host, p.bstarstatic.com, 哔哩哔哩
+host, pic.bstarstatic.com, 哔哩哔哩
+host, s.bstarstatic.com, 哔哩哔哩
 host, upos-hz-mirrorakam.akamaized.net, 哔哩哔哩
 host, www.bilibili.com, 哔哩哔哩
+host-suffix, bilibili.tv, 哔哩哔哩
 host-keyword, cn-hk-eq-01-, 哔哩哔哩
 ip-asn, 140633, 哔哩哔哩
