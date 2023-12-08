@@ -4,8 +4,8 @@
 // @version 1.0.0
 // @author Hayxi
 // @namespace https://bgm.tv
-// @updateURL https://gist.githubusercontent.com/Hayxi/c968b08ee4d0ac003272f013826b104c/raw/bgm-tv-gadgets.user.js
-// @downloadURL https://gist.githubusercontent.com/Hayxi/c968b08ee4d0ac003272f013826b104c/raw/bgm-tv-gadgets.user.js
+// @updateURL https://raw.githubusercontent.com/Hayxi/Profiles/ma%D1%95ter/Tampermonkey/bgm-tv-enabled-gadgets-pin-to-top.user.js
+// @downloadURL https://raw.githubusercontent.com/Hayxi/Profiles/ma%D1%95ter/Tampermonkey/bgm-tv-enabled-gadgets-pin-to-top.user.js
 // @match *://bangumi.tv/settings/gadgets
 // @match *://bgm.tv/settings/gadgets
 // @match *://chii.in/settings/gadgets
