@@ -6,3 +6,4 @@ payload:
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN,www.bilibili.com
   - DOMAIN-KEYWORD,cn-hk-eq-01-
+  - IP-CIDR,103.151.150.0/23,no-resolve
