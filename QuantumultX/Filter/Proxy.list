@@ -1,4 +1,6 @@
+host, db.msin.jp, proxy
 host, vcards.metowolf.com, proxy
 host, www.surge-activation.com, proxy
 host-suffix, bgm.tv, proxy
+host-suffix, immersivetranslate.com, proxy
 host-suffix, metacubex.one, proxy
