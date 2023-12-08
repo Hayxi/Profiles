@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           置顶已启用的组件
-// @description    将已启用的组件排到最前面
+// @description    将 Bangumi 已启用的超合金组件排到最前面
 // @version        1.0.0
 // @author         Hayxi
 // @namespace      https://bgm.tv
