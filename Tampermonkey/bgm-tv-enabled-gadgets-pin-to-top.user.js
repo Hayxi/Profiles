@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name 将已启用的组件排到最前面
-// @description 将已启用的组件排到最前面
-// @version 1.0.0
-// @author Hayxi
-// @namespace https://bgm.tv
-// @updateURL https://raw.githubusercontent.com/Hayxi/Profiles/ma%D1%95ter/Tampermonkey/bgm-tv-enabled-gadgets-pin-to-top.user.js
-// @downloadURL https://raw.githubusercontent.com/Hayxi/Profiles/ma%D1%95ter/Tampermonkey/bgm-tv-enabled-gadgets-pin-to-top.user.js
-// @match *://bangumi.tv/settings/gadgets
-// @match *://bgm.tv/settings/gadgets
-// @match *://chii.in/settings/gadgets
-// @run-at document-end
+// @name           置顶已启用的组件
+// @description    将已启用的组件排到最前面
+// @version        1.0.0
+// @author         Hayxi
+// @namespace      https://bgm.tv
+// @updateURL      https://raw.githubusercontent.com/Hayxi/Profiles/ma%D1%95ter/Tampermonkey/bgm-tv-enabled-gadgets-pin-to-top.user.js
+// @downloadURL    https://raw.githubusercontent.com/Hayxi/Profiles/ma%D1%95ter/Tampermonkey/bgm-tv-enabled-gadgets-pin-to-top.user.js
+// @match          *://bangumi.tv/settings/gadgets
+// @match          *://bgm.tv/settings/gadgets
+// @match          *://chii.in/settings/gadgets
+// @run-at         document-end
 // ==/UserScript==
 (() => {
     $('#timeline ul').each((a) => {
