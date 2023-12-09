@@ -5,6 +5,11 @@ payload:
   - DOMAIN,time.is
   - DOMAIN,vcards.metowolf.com
   - DOMAIN,www.surge-activation.com
+  - DOMAIN-SUFFIX,1password.ca
+  - DOMAIN-SUFFIX,1password.eu
+  - DOMAIN-SUFFIX,1passwordservices.com
+  - DOMAIN-SUFFIX,1passwordusercontent.com
+  - DOMAIN-SUFFIX,agilebits.com
   - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,ifreesite.com
   - DOMAIN-SUFFIX,immersivetranslate.com
