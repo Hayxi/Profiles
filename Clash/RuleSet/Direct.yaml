@@ -1,6 +1,5 @@
 payload:
-  - DOMAIN,iosapps.itunes.apple.com
-  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,steamserver.net
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,baidunetdiskhost.exe
   - PROCESS-NAME,DownloadSDKServer.exe
