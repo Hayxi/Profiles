@@ -3,11 +3,9 @@ payload:
   - DOMAIN,app.bilibili.com
   - DOMAIN,grpc.biliapi.net
   - DOMAIN,m.bilibili.com
-  - DOMAIN,p.bstarstatic.com
-  - DOMAIN,pic.bstarstatic.com
-  - DOMAIN,s.bstarstatic.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN,www.bilibili.com
   - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,bstarstatic.com
   - DOMAIN-KEYWORD,cn-hk-eq-01-
   - IP-CIDR,103.151.150.0/23,no-resolve
