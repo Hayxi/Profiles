@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN,p.sda1.dev
   - DOMAIN-SUFFIX,steamserver.net
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,baidunetdiskhost.exe
