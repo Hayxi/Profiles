@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN,time.apple.com
   - DOMAIN-SUFFIX,steamserver.net
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,baidunetdiskhost.exe
