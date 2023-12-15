@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN,time.windows.com
   - DOMAIN-SUFFIX,steamserver.net
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,baidunetdiskhost.exe
