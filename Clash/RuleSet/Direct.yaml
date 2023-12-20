@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN,time.apple.com
   - DOMAIN,time.windows.com
   - DOMAIN-SUFFIX,steamserver.net
   - PROCESS-NAME,baidunetdisk.exe
@@ -9,3 +8,4 @@ payload:
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,socksengine.exe
   - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,xllite.exe
