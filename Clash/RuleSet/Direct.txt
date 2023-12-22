@@ -1,0 +1,10 @@
+DOMAIN,time.windows.com
+DOMAIN-SUFFIX,steamserver.net
+PROCESS-NAME,baidunetdisk.exe
+PROCESS-NAME,baidunetdiskhost.exe
+PROCESS-NAME,DownloadSDKServer.exe
+PROCESS-NAME,leishenSdk.exe
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,socksengine.exe
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,xllite.exe
