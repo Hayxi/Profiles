@@ -1,0 +1,4 @@
+DOMAIN,dy2.douyu.com // 斗鱼
+DOMAIN,play4.douyuscdn.com // 斗鱼
+AND,((IP-CIDR,14.215.122.17/32,no-resolve),(DEST-PORT,8092)) // 中国电信
+AND,((IP-CIDR,157.255.173.151/32,no-resolve),(DEST-PORT,8080)) // 格力+
