@@ -1,0 +1,5 @@
+#!name=MitM app.bilibili.com
+#!desc=哔哩哔哩漫画获取 Cookie
+
+[MITM]
+hostname = %INSERT% app.bilibili.com:443
