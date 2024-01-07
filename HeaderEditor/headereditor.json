@@ -287,18 +287,6 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://item.jd.com/$1"
-		},
-		{
-			"enable": true,
-			"name": "重定向 紳士漫畫 至 HTTPS",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^http:\\/\\/wnacg\\.com\\/(.*$)",
-			"exclude": "",
-			"group": "重定向请求",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://wnacg.com/$1"
 		}
 	],
 	"sendHeader": [
