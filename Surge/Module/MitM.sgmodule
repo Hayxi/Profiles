@@ -1,5 +1,8 @@
 #!name=MitM app.bilibili.com
 #!desc=哔哩哔哩漫画获取 Cookie
 
+[General]
+always-raw-tcp-hosts = %INSERT% -app.bilibili.com:443
+
 [MITM]
 hostname = %INSERT% app.bilibili.com:443
