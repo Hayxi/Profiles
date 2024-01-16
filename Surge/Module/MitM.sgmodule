@@ -1,4 +1,4 @@
-#!name=MitM app.bilibili.com
+#!name=MitM: app.bilibili.com
 #!desc=哔哩哔哩漫画获取 Cookie
 
 [MITM]
