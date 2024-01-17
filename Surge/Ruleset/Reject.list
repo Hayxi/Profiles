@@ -1,5 +1,7 @@
 DOMAIN,8463803521674337.h5app.10086.cn // 中国移动
 DOMAIN,dy2.douyu.com // 斗鱼
 DOMAIN,play4.douyuscdn.com // 斗鱼
+DOMAIN,speedv6.m.jd.com // 京东
+DOMAIN-SUFFIX,jddebug.com // 京东
 AND,((IP-CIDR,14.215.122.17/32,no-resolve),(DEST-PORT,8092)) // 中国电信
 AND,((IP-CIDR,157.255.173.151/32,no-resolve),(DEST-PORT,8080)) // 格力+
