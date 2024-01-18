@@ -1,4 +1,3 @@
-AND,((NETWORK,UDP),(DST-PORT,443))
 AND,((PROCESS-NAME,1Password.exe),(DOMAIN,c.1password.com))
 AND,((PROCESS-NAME,CCleaner64.exe),(OR,((DOMAIN-SUFFIX,avast.com),(DOMAIN-SUFFIX,ccleaner.com))))
 AND,((PROCESS-NAME,Clash Verge.exe),(DOMAIN,mirror.ghproxy.com))
