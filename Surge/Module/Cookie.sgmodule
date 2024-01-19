@@ -1,0 +1,5 @@
+#!name=Comics Cookie
+#!desc=哔哩哔哩漫画获取 Cookie
+
+[Script]
+Comics Cookie = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
