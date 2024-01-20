@@ -1,4 +1,5 @@
 DOMAIN,adult.contents.fc2.com
+# > HoYoverse
 DOMAIN,hk4e-sdk-os.hoyoverse.com
 DOMAIN,hk4e-topup-os.hoyoverse.com
 DOMAIN,dispatchosglobal.yuanshen.com
@@ -6,3 +7,16 @@ DOMAIN,osasiadispatch.yuanshen.com
 DOMAIN,oseurodispatch.yuanshen.com
 DOMAIN,osusadispatch.yuanshen.com
 DOMAIN,osuspider.yuanshen.com
+# > TikTok
+DOMAIN,lf16-pkgcdn.pitaya-clientai.com
+DOMAIN,lf19-pkgcdn.pitaya-clientai.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,sgsnssdk.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,ttlstatic.com
+DOMAIN-SUFFIX,ttwstatic.com
