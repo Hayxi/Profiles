@@ -8,6 +8,7 @@ DOMAIN,oseurodispatch.yuanshen.com
 DOMAIN,osusadispatch.yuanshen.com
 DOMAIN,osuspider.yuanshen.com
 # > TikTok
+DOMAIN,api.snapkit.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,lf19-pkgcdn.pitaya-clientai.com
 DOMAIN-SUFFIX,bytedapm.com
