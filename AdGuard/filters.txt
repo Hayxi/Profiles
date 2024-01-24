@@ -1,9 +1,10 @@
 ! Title: Custom filter
+! TimeUpdated: 2024-01-24T22:24:00+08:00
 ! Expires: 5 days (update frequency)
-||xuite.net^
 18comic.vip##div[class="col-lg-3 col-md-3 col-sm-3 col-xs-6"]
 18comic.vip##div[class="div-bf-pv"]
 18comic.vip##div[class="hidden-lg"][style="position: absolute;bottom: 0px;z-index: 10;"]
 18comic.vip##div[class="row"][style="display: flex;flex-wrap: wrap;"]
 jable.tv##div[class="text-center mb-e-30"]
 njav.tv##div[class="d-flex justify-content-center"]
+xuite.net
