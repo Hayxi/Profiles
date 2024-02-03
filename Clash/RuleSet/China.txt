@@ -1,8 +1,8 @@
-PROCESS-NAME,baidunetdisk.exe
-PROCESS-NAME,baidunetdiskhost.exe
+DOMAIN,time.windows.com
+DOMAIN-SUFFIX,steamserver.net
+PROCESS-NAME,BaiduNetdisk.exe
+PROCESS-NAME,BaiduNetdiskHost.exe
 PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,Thunder.exe
 PROCESS-NAME,xllite.exe
-DOMAIN,time.windows.com
-DOMAIN-SUFFIX,steamserver.net
