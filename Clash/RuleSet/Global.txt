@@ -1,3 +1,4 @@
 DOMAIN,api.cn2.pw
 DOMAIN,api.wcc.best
 DOMAIN-SUFFIX,ip-api.com
+PROCESS-NAME,Telegram.exe
