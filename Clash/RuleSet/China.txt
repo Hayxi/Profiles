@@ -1,4 +1,4 @@
 DOMAIN-SUFFIX,steamserver.net
-DST-PORT,123
+AND,((NETWORK,UDP),(DST-PORT,123))
 PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,qbittorrent.exe
