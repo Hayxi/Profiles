@@ -1,4 +1,5 @@
 DOMAIN,adult.contents.fc2.com
+DOMAIN,autopatchhk.yuanshen.com
 DOMAIN,hk4e-sdk-os.hoyoverse.com
 DOMAIN,hk4e-topup-os.hoyoverse.com
 DOMAIN,minor-api-os.hoyoverse.com
