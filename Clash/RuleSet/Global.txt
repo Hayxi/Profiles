@@ -1,4 +1,7 @@
 DOMAIN,api.cn2.pw
 DOMAIN,api.wcc.best
+DOMAIN,autopatchhk.yuanshen.com
+DOMAIN,minor-api-os.hoyoverse.com
 DOMAIN-SUFFIX,ip-api.com
+AND,((PROCESS-NAME,GenshinImpact.exe),(NETWORK,UDP))
 PROCESS-NAME,Telegram.exe
