@@ -1,2 +1,3 @@
 DOMAIN-SUFFIX,steamserver.net
 AND,((PROTOCOL,UDP),(DEST-PORT,123))
+DOMAIN,time.apple.com
