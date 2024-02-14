@@ -1,6 +1,8 @@
 DOMAIN,api.cn2.pw
 DOMAIN,api.wcc.best
 DOMAIN,autopatchhk.yuanshen.com
+DOMAIN,www.surge-activation.com
 DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,metacubex.one
 AND,((PROCESS-NAME,GenshinImpact.exe),(NETWORK,UDP))
 PROCESS-NAME,Telegram.exe
