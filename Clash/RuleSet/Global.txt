@@ -1,4 +1,4 @@
-DOMAIN,api.imlax.net
+DOMAIN,intt1.imsfo.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,y1z.org
 IP-CIDR,91.105.192.0/23,no-resolve
