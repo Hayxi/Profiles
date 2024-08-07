@@ -347,6 +347,35 @@
 			}
 		}
 	],
-	"receiveHeader": [],
+	"receiveHeader": [
+		{
+			"enable": true,
+			"name": "声明网页书写语言为繁中",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "(clickme.net|playno1.com|^https?:\\/\\/www\\.wikiwand\\.com\\/zh-(?:hant|hk|mo|tw)\\/(.*$)|^https?:\\/\\/[^\\s]*\\.tw\\/(.*$))",
+			"exclude": "",
+			"group": "修改响应头",
+			"isFunction": false,
+			"action": {
+				"name": "content-language",
+				"value": "zh-TW"
+			}
+		},
+		{
+			"enable": true,
+			"name": "声明网页书写语言为日语",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "(at-sakura.net|fc2web.com|sagaoz.net|seiya-saiga.com|^https?:\\/\\/www\\.wikiwand\\.com\\/ja\\/(.*$)|^https?:\\/\\/[^\\s]*\\.jp\\/(.*$))",
+			"exclude": "",
+			"group": "修改响应头",
+			"isFunction": false,
+			"action": {
+				"name": "content-language",
+				"value": "ja-JP"
+			}
+		}
+	],
 	"receiveBody": []
 }
