@@ -98,7 +98,7 @@
 		},
 		{
 			"enable": false,
-			"name": "重定向 Wikipedia 至 Wikiwand_1",
+			"name": "重定向 Wikipedia 至 Wikiwand ①",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/zh(-\\w*)?\\/(.*$)",
@@ -110,7 +110,7 @@
 		},
 		{
 			"enable": false,
-			"name": "重定向 Wikipedia 至 Wikiwand_2",
+			"name": "重定向 Wikipedia 至 Wikiwand ②",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)",
@@ -158,7 +158,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 Anime 字幕论坛 镜像站网址",
+			"name": "重定向 Anime字幕论坛 镜像站网址",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/404\\.website\\/(.*$)",
@@ -170,7 +170,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 Bangumi 异类域名_1",
+			"name": "重定向 Bangumi 异类域名 ①",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/(doujin\\.)?(?:bangumi|chii)\\.(?:tv|in)\\/(.*$)",
@@ -182,7 +182,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 Bangumi 异类域名_2",
+			"name": "重定向 Bangumi 异类域名 ②",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/bgm\\.tv\\/m\\/topic\\/group\\/(.*$)",
@@ -191,18 +191,6 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://bgm.tv/group/topic/$1"
-		},
-		{
-			"enable": true,
-			"name": "重定向 bilibili 异类域名",
-			"ruleType": "redirect",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video\\/(.*$)",
-			"exclude": "",
-			"group": "重定向请求",
-			"isFunction": false,
-			"action": "redirect",
-			"to": "https://www.bilibili.com/video/$1"
 		},
 		{
 			"enable": true,
@@ -218,7 +206,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 PlayStation 商店 显示语言",
+			"name": "重定向 PlayStation Store 显示语言",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en-hk|zh-hans-hk)\\/(.*$)",
@@ -230,7 +218,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 PSN 中文站 异类域名",
+			"name": "重定向 PSN中文站 异类域名",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/(www\\.)?psnine\\.com\\/(.*$)",
@@ -254,7 +242,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 百度贴吧 异类域名_1",
+			"name": "重定向 百度贴吧 异类域名 ①",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/(?:f|m)\\/(.*$)",
@@ -266,7 +254,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 百度贴吧 异类域名_2",
+			"name": "重定向 百度贴吧 异类域名 ②",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/(?:c\\.tieba\\.baidu|dq\\.tieba|jump2?\\.bdimg|wapp\\.baidu|www\\.tieba)\\.com\\/(.*$)",
@@ -275,6 +263,18 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://tieba.baidu.com/$1"
+		},
+		{
+			"enable": true,
+			"name": "重定向 哔哩哔哩 异类域名",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video\\/(.*$)",
+			"exclude": "",
+			"group": "重定向请求",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.bilibili.com/video/$1"
 		},
 		{
 			"enable": true,
@@ -290,7 +290,7 @@
 		},
 		{
 			"enable": true,
-			"name": "南+ CG&游戏板块默认打开图墙模式",
+			"name": "重定向 南+CG&游戏板块 图墙模式",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/south-plus\\.net\\/thread\\.php\\?fid-(6|14|171|174)\\.html$",
@@ -299,6 +299,30 @@
 			"isFunction": false,
 			"action": "redirect",
 			"to": "https://south-plus.net/thread_new.php?fid-$1.html"
+		},
+		{
+			"enable": true,
+			"name": "重定向 色花堂 异类域名 ①",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "(www\\.)?sehuatang\\.net|m9gh\\.z0gfi\\.com|xh52\\.0wxjm\\.net",
+			"exclude": "",
+			"group": "重定向请求",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "www.sehuatang.org"
+		},
+		{
+			"enable": true,
+			"name": "重定向 色花堂 异类域名 ②",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(www\\.)?sehuatang\\.org\\/(.*)&mobile=2$",
+			"exclude": "",
+			"group": "重定向请求",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://www.sehuatang.org/$2"
 		}
 	],
 	"sendHeader": [
@@ -321,7 +345,7 @@
 			"name": "持久化网站用户代理",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "bgm\\.tv|south-plus\\.net",
+			"pattern": "south-plus\\.net",
 			"exclude": "",
 			"group": "修改请求头",
 			"isFunction": false,
