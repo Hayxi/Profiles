@@ -1,6 +1,6 @@
 AND,((PROCESS-NAME,1Password.exe),(DOMAIN,c.1password.com))
-AND,((PROCESS-NAME,CCleaner64.exe),(OR,((DOMAIN-SUFFIX,avast.com),(DOMAIN-SUFFIX,ccleaner.com))))
+AND,((PROCESS-NAME,CCleaner64.exe),(OR,((DOMAIN,download.avira.com),(DOMAIN,www.ccleaner.com),(DOMAIN-SUFFIX,avast.com))))
 AND,((PROCESS-NAME,Clash Verge.exe),(DOMAIN,mirror.ghproxy.com))
 AND,((PROCESS-NAME,Dism++x64.exe),(DOMAIN,update.chuyu.me))
-AND,((PROCESS-NAME,PotPlayerMini64.exe),(OR,((DOMAIN,p1-play.edge4k.com),(DOMAIN,p2-play.edge4k.com),(DOMAIN,play.kakao.com),(DOMAIN,stat.tiara.kakao.com))))
+AND,((PROCESS-NAME,PotPlayerMini64.exe),(OR,((DOMAIN,p1-play.edge4k.com),(DOMAIN,p2-play.edge4k.com),(DOMAIN,stat.tiara.kakao.com))))
 AND,((PROCESS-NAME,svchost.exe),(OR,((DOMAIN,ipv6.msftconnecttest.com),(DOMAIN,ipv6.msftncsi.com))))
