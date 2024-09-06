@@ -317,7 +317,7 @@
 			"name": "重定向 色花堂 异类域名 ②",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/(www\\.)?sehuatang\\.org\\/(.*)&mobile=2$",
+			"pattern": "^https?:\\/\\/(www\\.)?sehuatang\\.org\\/(.*)(&mobile=2$)?",
 			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
