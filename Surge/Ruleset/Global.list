@@ -1,5 +1,6 @@
 DOMAIN,api.cn2.pw
 DOMAIN,api.swiftgram.app
+DOMAIN,cdn.paddle.com
 DOMAIN,edit.sunfox.org
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,2dfan.com
@@ -10,6 +11,7 @@ DOMAIN-SUFFIX,boslife.io
 DOMAIN-SUFFIX,ifreesite.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,seiya-saiga.com
+DOMAIN-SUFFIX,sijishe.link
 DOMAIN-SUFFIX,y1z.org
 # > Image Hosting
 DOMAIN,img.achost.top
@@ -21,6 +23,7 @@ DOMAIN-SUFFIX,chkaja.com
 DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,imgbox.com
 DOMAIN-SUFFIX,roqwq.com
+DOMAIN-SUFFIX,urlimage.cc
 # > Telegram
 IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
