@@ -1,7 +1,15 @@
+DOMAIN,edit.sunfox.org
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,agilebits.com
+DOMAIN-SUFFIX,bgm.tv
+DOMAIN-SUFFIX,blue-plus.net
+DOMAIN-SUFFIX,ifreesite.com
+DOMAIN-SUFFIX,sijishe.link
 DOMAIN-SUFFIX,steamserver.net
 # > Image Hosting
 DOMAIN,img.achost.top
 DOMAIN,img.imoutomoe.net
+DOMAIN,p.sda1.dev
 DOMAIN-SUFFIX,chkaja.com
 DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,roqwq.com
