@@ -1,17 +1,23 @@
 DOMAIN,api.cn2.pw
 DOMAIN,api.swiftgram.app
 DOMAIN,edit.sunfox.org
+DOMAIN-SUFFIX,2dfan.com
+DOMAIN-SUFFIX,bgm.tv
+DOMAIN-SUFFIX,blue-plus.net
+DOMAIN-SUFFIX,ifreesite.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,seiya-saiga.com
+DOMAIN-SUFFIX,y1z.org
+# > Image Hosting
 DOMAIN,img.achost.top
 DOMAIN,img.imoutomoe.net
 DOMAIN,p.sda1.dev
-DOMAIN-SUFFIX,2dfan.com
-DOMAIN-SUFFIX,bgm.tv
+DOMAIN-SUFFIX,acgimg.top
 DOMAIN-SUFFIX,catbox.moe
 DOMAIN-SUFFIX,chkaja.com
-DOMAIN-SUFFIX,ifreesite.com
-DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,imgbox.com
 DOMAIN-SUFFIX,roqwq.com
-DOMAIN-SUFFIX,y1z.org
+# > Telegram
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
