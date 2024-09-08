@@ -345,7 +345,7 @@
 			"name": "持久化网站用户代理",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "bgm\\.tv|south-plus\\.net",
+			"pattern": "bgm\\.tv|blue-plus\\.net",
 			"exclude": "",
 			"group": "修改请求头",
 			"isFunction": false,
