@@ -14,16 +14,10 @@ DOMAIN-SUFFIX,seiya-saiga.com
 DOMAIN-SUFFIX,sijishe.link
 DOMAIN-SUFFIX,y1z.org
 # > Image Hosting
-DOMAIN,img.achost.top
-DOMAIN,img.imoutomoe.net
 DOMAIN,p.sda1.dev
 DOMAIN-SUFFIX,acgimg.top
 DOMAIN-SUFFIX,catbox.moe
-DOMAIN-SUFFIX,chkaja.com
-DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,imgbox.com
-DOMAIN-SUFFIX,roqwq.com
-DOMAIN-SUFFIX,urlimage.cc
 # > Telegram
 IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
