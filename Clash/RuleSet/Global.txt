@@ -15,6 +15,7 @@ DOMAIN,p.sda1.dev
 DOMAIN-SUFFIX,acgimg.top
 DOMAIN-SUFFIX,catbox.moe
 DOMAIN-SUFFIX,chkaja.com
+DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,imgbox.com
 DOMAIN-SUFFIX,roqwq.com
 # > Telegram
