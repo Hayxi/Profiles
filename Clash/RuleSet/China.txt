@@ -1,6 +1,4 @@
 DOMAIN,edit.sunfox.org
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,blue-plus.net
 DOMAIN-SUFFIX,ifreesite.com
