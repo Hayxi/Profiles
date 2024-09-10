@@ -290,7 +290,19 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 南+CG&游戏板块 图墙模式",
+			"name": "重定向 南+ banner 网址",
+			"ruleType": "redirect",
+			"matchType": "url",
+			"pattern": "https://www.blue-plus.net/images/banner.gif",
+			"exclude": "",
+			"group": "重定向请求",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "https://south-plus.net/images/banner.gif"
+		},
+		{
+			"enable": true,
+			"name": "重定向 南+ CG&游戏板块 图墙模式",
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/south-plus\\.net\\/thread\\.php\\?fid-(6|14|171|174)\\.html$",
