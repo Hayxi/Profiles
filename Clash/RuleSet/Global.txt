@@ -2,6 +2,7 @@ DOMAIN,api.cn2.pw
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,2dfan.com
 DOMAIN-SUFFIX,as.mr
+DOMAIN-SUFFIX,asmr.one
 DOMAIN-SUFFIX,asmr-100.com
 DOMAIN-SUFFIX,boslife.io
 DOMAIN-SUFFIX,ip-api.com
