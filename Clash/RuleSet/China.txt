@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,asmr-300.com
 DOMAIN-SUFFIX,asmrconnecting.xyz
 DOMAIN-SUFFIX,bgm.tv
 DOMAIN-SUFFIX,blue-plus.net
+DOMAIN-SUFFIX,hifini.com
 DOMAIN-SUFFIX,ifreesite.com
 DOMAIN-SUFFIX,kiko-play-niptan.one
 DOMAIN-SUFFIX,sijishe.link
