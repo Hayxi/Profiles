@@ -101,12 +101,12 @@
 			"name": "重定向 Wikipedia 至 Wikiwand ①",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/zh(-\\w*)?\\/(.*$)",
+			"pattern": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/(?:zh(-\\w*)?|wiki)\\/(.*$)",
 			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://www.wikiwand.com/zh-hans/$3"
+			"to": "https://www.wikiwand.com/zh-cn/articles/$3"
 		},
 		{
 			"enable": false,
@@ -118,7 +118,7 @@
 			"group": "重定向请求",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://www.wikiwand.com/$1$2$3/$5"
+			"to": "https://www.wikiwand.com/$1$2$3/articles/$5"
 		},
 		{
 			"enable": true,
@@ -317,7 +317,7 @@
 			"name": "重定向 色花堂 异类域名 ①",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "(www\\.)?sehuatang\\.org|m9gh\\.z0gfi\\.com|xh52\\.0wxjm\\.net",
+			"pattern": "(www\\.)?sehuatang\\.org|m9gh\\.z0gfi\\.com|xh52\\.0wxjm\\.net|z2kf\\.6l4e\\.net",
 			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -363,7 +363,7 @@
 			"isFunction": false,
 			"action": {
 				"name": "user-agent",
-				"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+				"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0"
 			}
 		},
 		{
@@ -415,7 +415,7 @@
 			"name": "声明页面语言为日语",
 			"ruleType": "modifyReceiveHeader",
 			"matchType": "regexp",
-			"pattern": "at-sakura\\.net|fc2web\\.com|sagaoz\\.net|seiya-saiga\\.com|^https?:\\/\\/www\\.wikiwand\\.com\\/ja\\/(.*$)|^https?:\\/\\/[^\\s]*\\.jp\\/(.*$)",
+			"pattern": "a-kaguya\\.com|at-sakura\\.net|fc2web\\.com|sagaoz\\.net|seiya-saiga\\.com|^https?:\\/\\/www\\.wikiwand\\.com\\/ja\\/(.*$)|^https?:\\/\\/[^\\s]*\\.jp\\/(.*$)",
 			"exclude": "",
 			"group": "修改响应头",
 			"isFunction": false,
