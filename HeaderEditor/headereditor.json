@@ -401,7 +401,7 @@
 			"name": "声明页面语言为繁中",
 			"ruleType": "modifyReceiveHeader",
 			"matchType": "regexp",
-			"pattern": "clickme\\.net|playno1\\.com|^https?:\\/\\/www\\.wikiwand\\.com\\/zh-(?:hant|hk|mo|tw)\\/(.*$)|^https?:\\/\\/[^\\s]*\\.tw\\/(.*$)",
+			"pattern": "clickme\\.net|playno1\\.com|ptt\\.cc|^https?:\\/\\/www\\.wikiwand\\.com\\/zh-(?:hant|hk|mo|tw)\\/(.*$)|^https?:\\/\\/[^\\s]*\\.tw\\/(.*$)",
 			"exclude": "",
 			"group": "修改响应头",
 			"isFunction": false,
