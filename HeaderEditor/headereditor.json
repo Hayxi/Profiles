@@ -305,12 +305,12 @@
 			"name": "重定向 南+ CG&游戏板块 图墙模式",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/south-plus\\.net\\/thread\\.php\\?fid-(6|14|171|174)\\.html$",
+			"pattern": "^https?:\\/\\/south-plus\\.net\\/thread\\.php\\?fid-(6|14|171|174)(.*)\\.html",
 			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://south-plus.net/thread_new.php?fid-$1.html"
+			"to": "https://south-plus.net/thread_new.php?fid-$1$2.html"
 		},
 		{
 			"enable": true,
