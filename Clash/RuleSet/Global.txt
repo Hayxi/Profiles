@@ -1,5 +1,5 @@
-DOMAIN,api.cn2.pw
 DOMAIN,api.swiftgram.app
+DOMAIN,trdy.subiway.com
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,2dfan.com
 DOMAIN-SUFFIX,agilebits.com
@@ -10,12 +10,7 @@ DOMAIN-SUFFIX,boslife.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,metacubex.one
 DOMAIN-SUFFIX,seiya-saiga.com
-DOMAIN-SUFFIX,sijishe.link
 DOMAIN-SUFFIX,y1z.org
-# > Image Hosting
-DOMAIN-SUFFIX,acgimg.top
-DOMAIN-SUFFIX,catbox.moe
-DOMAIN-SUFFIX,imgbox.com
 # > Telegram
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
