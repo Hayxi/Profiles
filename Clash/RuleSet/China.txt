@@ -10,16 +10,9 @@ DOMAIN-SUFFIX,ifreesite.com
 DOMAIN-SUFFIX,kiko-play-niptan.one
 DOMAIN-SUFFIX,steamserver.net
 # > Image Hosting
-DOMAIN,img.imoutomoe.net
 DOMAIN,p.sda1.dev
-DOMAIN-SUFFIX,85zc.app
-DOMAIN-SUFFIX,achost.top
 DOMAIN-SUFFIX,chkaja.com
 DOMAIN-SUFFIX,freeimage.host
-DOMAIN-SUFFIX,kiseouhgf.info
-DOMAIN-SUFFIX,ov7v.app
-DOMAIN-SUFFIX,roqwq.com
-DOMAIN-SUFFIX,roqwq.net
 DOMAIN-SUFFIX,urlimage.cc
 # > NTP Server
 AND,((NETWORK,UDP),(DST-PORT,123))
