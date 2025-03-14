@@ -15,5 +15,4 @@ DOMAIN-SUFFIX,chkaja.com
 DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,urlimage.cc
 # > NTP Server
-AND,((PROTOCOL,UDP),(DEST-PORT,123))
 DOMAIN,time.apple.com
