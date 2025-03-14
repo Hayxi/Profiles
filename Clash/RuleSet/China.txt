@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,chkaja.com
 DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,urlimage.cc
 # > NTP Server
-AND,((NETWORK,UDP),(DST-PORT,123))
+DOMAIN,time.windows.com
 # > BitTorrent Client
 PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,qbittorrent.exe
