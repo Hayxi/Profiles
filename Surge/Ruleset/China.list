@@ -1,18 +1,11 @@
 DOMAIN,edit.sunfox.org
+DOMAIN,time.apple.com
 DOMAIN-SUFFIX,2nine.net
 DOMAIN-SUFFIX,asmr-200.com
 DOMAIN-SUFFIX,asmr-300.com
 DOMAIN-SUFFIX,asmrconnecting.xyz
-DOMAIN-SUFFIX,bgm.tv
-DOMAIN-SUFFIX,blue-plus.net
 DOMAIN-SUFFIX,hifini.com
 DOMAIN-SUFFIX,ifreesite.com
 DOMAIN-SUFFIX,kiko-play-niptan.one
 DOMAIN-SUFFIX,steamserver.net
-# > Image Hosting
-DOMAIN,p.sda1.dev
-DOMAIN-SUFFIX,chkaja.com
-DOMAIN-SUFFIX,freeimage.host
 DOMAIN-SUFFIX,urlimage.cc
-# > NTP Server
-DOMAIN,time.apple.com
