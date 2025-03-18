@@ -1,8 +1,6 @@
 DOMAIN,api.swiftgram.app
 DOMAIN,trdy.subiway.com
-DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,2dfan.com
-DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,as.mr
 DOMAIN-SUFFIX,asmr.one
 DOMAIN-SUFFIX,asmr-100.com
