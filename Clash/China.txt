@@ -8,6 +8,5 @@ DOMAIN-SUFFIX,ifreesite.com
 DOMAIN-SUFFIX,kiko-play-niptan.one
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,urlimage.cc
-# > BitTorrent
 PROCESS-NAME,DownloadSDKServer.exe
 PROCESS-NAME,qbittorrent.exe
