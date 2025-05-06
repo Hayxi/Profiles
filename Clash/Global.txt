@@ -1,4 +1,3 @@
-DOMAIN,api.swiftgram.app
 DOMAIN,trdy.subiway.com
 DOMAIN-SUFFIX,2dfan.com
 DOMAIN-SUFFIX,as.mr
@@ -6,19 +5,7 @@ DOMAIN-SUFFIX,asmr.one
 DOMAIN-SUFFIX,asmr-100.com
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,gold-usergeneratedcontent.net
-DOMAIN-SUFFIX,hoyo.link
-DOMAIN-SUFFIX,hoyoverse.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,komiic.com
-DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,seiya-saiga.com
 DOMAIN-SUFFIX,y1z.org
-# > Telegram
-IP-CIDR,91.105.192.0/23,no-resolve
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/21,no-resolve
-IP-CIDR,91.108.16.0/21,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,95.161.64.0/20,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
