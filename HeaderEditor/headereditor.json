@@ -26,6 +26,18 @@
 		},
 		{
 			"enable": true,
+			"name": "JAVLibrary",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/www\\.javlibrary\\.com\\/(?:cn|en|ja|tw)\\/redirect\\.php\\?url=(.*$)",
+			"exclude": "",
+			"group": "免外链警告",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "$1"
+		},
+		{
+			"enable": true,
 			"name": "pixiv",
 			"ruleType": "redirect",
 			"matchType": "regexp",
@@ -233,7 +245,7 @@
 			"name": "重定向 V2EX 异类域名",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/((?:cn|de|fast|global|hk|jp|origin|s)\\.)?v2ex\\.com\\/(.*$)",
+			"pattern": "^https?:\\/\\/((?:cn|de|fast|global|hk|jp|origin|s|us)\\.)?v2ex\\.com\\/(.*$)",
 			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
