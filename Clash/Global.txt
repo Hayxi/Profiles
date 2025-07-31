@@ -6,6 +6,5 @@ DOMAIN-SUFFIX,asmr-100.com
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,gold-usergeneratedcontent.net
 DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,komiic.com
 DOMAIN-SUFFIX,seiya-saiga.com
 DOMAIN-SUFFIX,y1z.org
