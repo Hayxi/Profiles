@@ -1,10 +1,1 @@
-DOMAIN,tvm.xa5z.org
-DOMAIN-SUFFIX,2dfan.com
 DOMAIN-SUFFIX,as.mr
-DOMAIN-SUFFIX,asmr.one
-DOMAIN-SUFFIX,asmr-100.com
-DOMAIN-SUFFIX,culturedcode.com
-DOMAIN-SUFFIX,gold-usergeneratedcontent.net
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,seiya-saiga.com
-DOMAIN-SUFFIX,y1z.org
