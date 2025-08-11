@@ -3,9 +3,7 @@ DOMAIN,time.windows.com
 DOMAIN-SUFFIX,asmr-200.com
 DOMAIN-SUFFIX,asmr-300.com
 DOMAIN-SUFFIX,asmrconnecting.xyz
-DOMAIN-SUFFIX,ifreesite.com
 DOMAIN-SUFFIX,kiko-play-niptan.one
-DOMAIN-SUFFIX,komiic.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,taige5.top
 DOMAIN-SUFFIX,urlimage.cc
