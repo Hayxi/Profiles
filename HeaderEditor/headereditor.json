@@ -234,11 +234,12 @@
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/(www\\.)?psnine\\.com\\/(.*$)",
-			"exclude": "",
+			"exclude": "^https?:\\/\\/psnine\\.com\\/(.*$)",
 			"group": "重定向请求",
 			"isFunction": false,
 			"action": "redirect",
-			"to": "https://psnine.com/$2"
+			"to": "https://psnine.com/$2",
+			"_exclude": {}
 		},
 		{
 			"enable": true,
@@ -246,7 +247,7 @@
 			"ruleType": "redirect",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/((.+)\\.)?v2ex\\.com\\/(.*$)",
-			"exclude": "^https?:\\/\\/cdn\\.v2ex\\.com\\/(.*$)",
+			"exclude": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)",
 			"group": "重定向请求",
 			"isFunction": false,
 			"action": "redirect",
