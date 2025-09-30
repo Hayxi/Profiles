@@ -407,9 +407,9 @@
 				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 			},
 			"condition": {
-				"regex": "bgm\\.tv|feishu\\.cn|south-plus\\.net"
+				"regex": "feishu\\.cn|south-plus\\.net"
 			},
-			"encoding": "UTF-8"
+			"encoding": "utf-8"
 		},
 		{
 			"enable": true,
@@ -422,9 +422,9 @@
 				"accept-language": "zh-TW"
 			},
 			"condition": {
-				"regex": "battle\\.net|blizzard\\.com"
+				"regex": "battle\\.net|blizzard\\.com|poedb\\.tw|poe2db\\.tw"
 			},
-			"encoding": "UTF-8"
+			"encoding": "utf-8"
 		},
 		{
 			"enable": true,
