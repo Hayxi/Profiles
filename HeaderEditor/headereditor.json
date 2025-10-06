@@ -11,7 +11,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/link\\.csdn\\.net\\/\\?target=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -24,7 +25,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/l\\.facebook\\.com\\/l\\.php\\?u=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -37,7 +39,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/www\\.javlibrary\\.com\\/(?:cn|en|ja|tw)\\/redirect\\.php\\?url=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -50,7 +53,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/www\\.pixiv\\.net\\/jump\\.php\\?(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -63,7 +67,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/steamcommunity\\.com\\/linkfilter\\/\\?u=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -76,7 +81,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/ref\\.gamer\\.com\\.tw\\/redir\\.php\\?url=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -89,7 +95,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/links\\.jianshu\\.com\\/go\\?to=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -102,7 +109,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/sspai\\.com\\/link\\?target=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -115,7 +123,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/link\\.zhihu\\.com\\/\\?target=(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": false,
@@ -128,7 +137,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/(?:zh(-\\w*)?|wiki)\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": false,
@@ -141,7 +151,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -154,7 +165,8 @@
 			"condition": {
 				"regex": "^https:\\/\\/(i|ue)?\\.17173cdn\\.com\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -167,7 +179,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/(?:2dfan|galge)\\.(?:org|top)\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -180,7 +193,8 @@
 			"condition": {
 				"regex": "^https:\\/\\/psn\\.a9vg\\.com\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -193,7 +207,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/404\\.website\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -206,7 +221,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/(doujin\\.)?(?:bangumi|chii)\\.(?:tv|in)\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -219,7 +235,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/bgm\\.tv\\/m\\/topic\\/group\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -232,7 +249,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/(?:g\\.nga|nga\\.178|ngabbs|yues)\\.(?:cn|com|org)\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -245,7 +263,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en-hk|zh-hans-hk)\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -259,7 +278,8 @@
 				"regex": "^https?:\\/\\/(www\\.)?psnine\\.com\\/(.*$)",
 				"excludeRegex": "^https?:\\/\\/psnine\\.com\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "auto"
 		},
 		{
 			"enable": true,
@@ -273,7 +293,8 @@
 				"regex": "^https?:\\/\\/((.+)\\.)?v2ex\\.com\\/(.*$)",
 				"excludeRegex": "^https?:\\\\/\\\\/(cdn|www)\\\\.v2ex\\\\.com\\\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "auto"
 		},
 		{
 			"enable": true,
@@ -286,7 +307,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/(?:f|m)\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -299,7 +321,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/(?:c\\.tieba\\.baidu|dq\\.tieba|jump2?\\.bdimg|wapp\\.baidu|www\\.tieba)\\.com\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -312,7 +335,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -325,7 +349,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/item\\.m\\.jd\\.com\\/product\\/(.*$)"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -338,7 +363,8 @@
 			"condition": {
 				"url": "https://www.blue-plus.net/images/banner.gif"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -351,7 +377,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/south-plus\\.net\\/thread\\.php\\?fid-(6|14|171|174)(.*)\\.html"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -364,7 +391,8 @@
 			"condition": {
 				"regex": "(www\\.)?sehuatang\\.org|m9gh\\.z0gfi\\.com|xh52\\.0wxjm\\.net|z2kf\\.6l4e\\.net"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -377,7 +405,8 @@
 			"condition": {
 				"regex": "^https?:\\/\\/(www\\.)?sehuatang\\.net\\/(.*)(&mobile=2$)?"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		}
 	],
 	"sendHeader": [
@@ -394,7 +423,8 @@
 			"condition": {
 				"regex": "sinaimg\\.cn"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -409,7 +439,8 @@
 			"condition": {
 				"regex": "feishu\\.cn|south-plus\\.net"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -424,7 +455,8 @@
 			"condition": {
 				"regex": "battle\\.net|blizzard\\.com|poedb\\.tw|poe2db\\.tw"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -434,12 +466,13 @@
 			"group": "修改请求头",
 			"isFunction": false,
 			"headers": {
-				"accept-language": "ja-JP"
+				"accept-language": "ja"
 			},
 			"condition": {
 				"regex": "fc2\\.com"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		}
 	],
 	"receiveHeader": [
@@ -454,9 +487,10 @@
 				"content-language": "zh-TW"
 			},
 			"condition": {
-				"regex": "clickme\\.net|playno1\\.com|ptt2?\\.cc|^https?:\\/\\/www\\.wikiwand\\.com\\/zh-(?:hant|hk|mo|tw)\\/(.*$)|^https?:\\/\\/[^\\s]*\\.tw\\/(.*$)"
+				"regex": "clickme\\.net|playno1\\.com|ptt2?\\.cc|(^.+)\\.tw"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
@@ -466,12 +500,13 @@
 			"group": "修改响应头",
 			"isFunction": false,
 			"headers": {
-				"content-language": "ja-JP"
+				"content-language": "ja"
 			},
 			"condition": {
-				"regex": "a-kaguya\\.com|at-sakura\\.net|fc2web\\.com|sagaoz\\.net|seiya-saiga\\.com|^https?:\\/\\/www\\.wikiwand\\.com\\/ja\\/(.*$)|^https?:\\/\\/[^\\s]*\\.jp\\/(.*$)"
+				"regex": "a-kaguya\\.com|at-sakura\\.net|fc2web\\.com|sagaoz\\.net|seiya-saiga\\.com|(^.+)\\.jp"
 			},
-			"encoding": "utf-8"
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
 		}
 	],
 	"receiveBody": []
