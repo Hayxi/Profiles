@@ -453,7 +453,7 @@
 				"accept-language": "zh-TW"
 			},
 			"condition": {
-				"regex": "battle\\.net|blizzard\\.com|poedb\\.tw|poe2db\\.tw"
+				"regex": "battle\\.net|blizzard\\.com|poedb\\.tw"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
