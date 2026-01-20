@@ -291,7 +291,7 @@
 			"to": "https://www.v2ex.com/$3",
 			"condition": {
 				"regex": "^https?:\\/\\/((.+)\\.)?v2ex\\.com\\/(.*$)",
-				"excludeRegex": "^https?:\\\\/\\\\/(cdn|www)\\\\.v2ex\\\\.com\\\\/(.*$)"
+				"excludeRegex": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "auto"
@@ -453,7 +453,7 @@
 				"accept-language": "zh-TW"
 			},
 			"condition": {
-				"regex": "battle\\.net|blizzard\\.com|poedb\\.tw"
+				"regex": "battle\\.net|blizzard\\.com|epicgames\\.com|poedb\\.tw"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
