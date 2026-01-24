@@ -487,7 +487,7 @@
 				"content-language": "zh-TW"
 			},
 			"condition": {
-				"regex": "clickme\\.net|playno1\\.com|ptt2?\\.cc|(^.+)\\.tw"
+				"regex": "clickme\\.net|playno1\\.com|ptt2?\\.cc|(^.+)\\.tw\\/(.*$)"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
@@ -503,7 +503,7 @@
 				"content-language": "ja"
 			},
 			"condition": {
-				"regex": "a-kaguya\\.com|at-sakura\\.net|fc2web\\.com|sagaoz\\.net|seiya-saiga\\.com|(^.+)\\.jp"
+				"regex": "a-kaguya\\.com|at-sakura\\.net|fc2web\\.com|sagaoz\\.net|seiya-saiga\\.com|(^.+)\\.jp\\/(.*$)"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
