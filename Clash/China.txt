@@ -2,6 +2,7 @@ DOMAIN,time.windows.com
 DOMAIN,tvm.xa5z.org
 DOMAIN-SUFFIX,asmr-200.com
 DOMAIN-SUFFIX,asmr-300.com
+DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,kiko-play-niptan.one
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,taige5.top
