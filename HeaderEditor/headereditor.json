@@ -4,12 +4,11 @@
 			"enable": true,
 			"name": "CSDN",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
 			"condition": {
-				"regex": "^https?:\\/\\/link\\.csdn\\.net\\/\\?target=(.*$)"
+				"regex": "^https?:\\/\\/link\\.csdn\\.net\\/\\?from_id=[0-9]+&target=(.*$)"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
@@ -18,7 +17,6 @@
 			"enable": true,
 			"name": "Facebook",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -32,7 +30,6 @@
 			"enable": true,
 			"name": "JAVLibrary",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -46,7 +43,6 @@
 			"enable": true,
 			"name": "pixiv",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -60,7 +56,6 @@
 			"enable": true,
 			"name": "Steam",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -74,7 +69,6 @@
 			"enable": true,
 			"name": "巴哈姆特",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -88,7 +82,6 @@
 			"enable": true,
 			"name": "简书",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -102,7 +95,6 @@
 			"enable": true,
 			"name": "少数派",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -116,7 +108,6 @@
 			"enable": true,
 			"name": "知乎",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "免外链警告",
 			"isFunction": false,
 			"to": "$1",
@@ -130,7 +121,6 @@
 			"enable": false,
 			"name": "重定向 Wikipedia 至 Wikiwand ①",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://www.wikiwand.com/zh-cn/articles/$3",
@@ -144,7 +134,6 @@
 			"enable": false,
 			"name": "重定向 Wikipedia 至 Wikiwand ②",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://www.wikiwand.com/$1$2$3/articles/$5",
@@ -156,23 +145,8 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 17173 图片解析",
-			"ruleType": "redirect",
-			"exclude": "",
-			"group": "重定向请求",
-			"isFunction": false,
-			"to": "http://$1.17173cdn.com/$2",
-			"condition": {
-				"regex": "^https:\\/\\/(i|ue)?\\.17173cdn\\.com\\/(.*$)"
-			},
-			"encoding": "utf-8",
-			"forceRunner": "web_request"
-		},
-		{
-			"enable": true,
 			"name": "重定向 2DFan 异类域名",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://2dfan.com/$1",
@@ -184,23 +158,8 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 A9VG 图片解析",
-			"ruleType": "redirect",
-			"exclude": "",
-			"group": "重定向请求",
-			"isFunction": false,
-			"to": "http://psn.a9vg.com/$1",
-			"condition": {
-				"regex": "^https:\\/\\/psn\\.a9vg\\.com\\/(.*$)"
-			},
-			"encoding": "utf-8",
-			"forceRunner": "web_request"
-		},
-		{
-			"enable": true,
 			"name": "重定向 Anime字幕论坛 镜像站网址",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://bbs.acgrip.com/$1",
@@ -214,7 +173,6 @@
 			"enable": true,
 			"name": "重定向 Bangumi 异类域名 ①",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://$1bgm.tv/$2",
@@ -228,7 +186,6 @@
 			"enable": true,
 			"name": "重定向 Bangumi 异类域名 ②",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://bgm.tv/group/topic/$1",
@@ -242,7 +199,6 @@
 			"enable": true,
 			"name": "重定向 NGA 异类域名",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://bbs.nga.cn/$1",
@@ -256,7 +212,6 @@
 			"enable": true,
 			"name": "重定向 PlayStation Store 显示语言",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://store.playstation.com/zh-hant-hk/$1",
@@ -268,24 +223,8 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 PSN中文站 异类域名",
-			"ruleType": "redirect",
-			"exclude": "^https?:\\/\\/psnine\\.com\\/(.*$)",
-			"group": "重定向请求",
-			"isFunction": false,
-			"to": "https://psnine.com/$2",
-			"condition": {
-				"regex": "^https?:\\/\\/(www\\.)?psnine\\.com\\/(.*$)",
-				"excludeRegex": "^https?:\\/\\/psnine\\.com\\/(.*$)"
-			},
-			"encoding": "utf-8",
-			"forceRunner": "auto"
-		},
-		{
-			"enable": true,
 			"name": "重定向 V2EX 异类域名",
 			"ruleType": "redirect",
-			"exclude": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://www.v2ex.com/$3",
@@ -294,13 +233,12 @@
 				"excludeRegex": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)"
 			},
 			"encoding": "utf-8",
-			"forceRunner": "auto"
+			"forceRunner": "web_request"
 		},
 		{
 			"enable": true,
 			"name": "重定向 百度贴吧 异类域名 ①",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://tieba.baidu.com/f/$1",
@@ -314,7 +252,6 @@
 			"enable": true,
 			"name": "重定向 百度贴吧 异类域名 ②",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://tieba.baidu.com/$1",
@@ -328,7 +265,6 @@
 			"enable": true,
 			"name": "重定向 哔哩哔哩 异类域名",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://www.bilibili.com/video/$1",
@@ -342,7 +278,6 @@
 			"enable": true,
 			"name": "重定向 京东 移动版网址",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://item.jd.com/$1",
@@ -356,7 +291,6 @@
 			"enable": true,
 			"name": "重定向 南+ banner 网址",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://south-plus.net/images/banner.gif",
@@ -370,7 +304,6 @@
 			"enable": true,
 			"name": "重定向 南+ CG&游戏板块 图墙模式",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://south-plus.net/thread_new.php?fid-$1$2.html",
@@ -384,7 +317,6 @@
 			"enable": true,
 			"name": "重定向 色花堂 异类域名 ①",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "www.sehuatang.net",
@@ -398,7 +330,6 @@
 			"enable": true,
 			"name": "重定向 色花堂 异类域名 ②",
 			"ruleType": "redirect",
-			"exclude": "",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://www.sehuatang.net/$2",
@@ -414,7 +345,6 @@
 			"enable": true,
 			"name": "伪造微博图床 Referer",
 			"ruleType": "modifySendHeader",
-			"exclude": "",
 			"group": "修改请求头",
 			"isFunction": false,
 			"headers": {
@@ -430,7 +360,6 @@
 			"enable": true,
 			"name": "持久化网站用户代理",
 			"ruleType": "modifySendHeader",
-			"exclude": "",
 			"group": "修改请求头",
 			"isFunction": false,
 			"headers": {
@@ -446,7 +375,6 @@
 			"enable": true,
 			"name": "声明显示语言为繁中",
 			"ruleType": "modifySendHeader",
-			"exclude": "",
 			"group": "修改请求头",
 			"isFunction": false,
 			"headers": {
@@ -462,7 +390,6 @@
 			"enable": true,
 			"name": "声明显示语言为日语",
 			"ruleType": "modifySendHeader",
-			"exclude": "",
 			"group": "修改请求头",
 			"isFunction": false,
 			"headers": {
@@ -477,10 +404,9 @@
 	],
 	"receiveHeader": [
 		{
-			"enable": true,
+			"enable": false,
 			"name": "声明页面语言为繁中",
 			"ruleType": "modifyReceiveHeader",
-			"exclude": "",
 			"group": "修改响应头",
 			"isFunction": false,
 			"headers": {
@@ -489,6 +415,7 @@
 			"condition": {
 				"domain": [
 					"clickme.net",
+					"gamer.com.tw",
 					"playno1.com",
 					"ptt.cc",
 					"ptt2.cc"
@@ -498,10 +425,9 @@
 			"forceRunner": "web_request"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "声明页面语言为日语",
 			"ruleType": "modifyReceiveHeader",
-			"exclude": "",
 			"group": "修改响应头",
 			"isFunction": false,
 			"headers": {
