@@ -118,32 +118,6 @@
 			"forceRunner": "web_request"
 		},
 		{
-			"enable": false,
-			"name": "重定向 Wikipedia 至 Wikiwand ①",
-			"ruleType": "redirect",
-			"group": "重定向请求",
-			"isFunction": false,
-			"to": "https://www.wikiwand.com/zh-cn/articles/$3",
-			"condition": {
-				"regex": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/(?:zh(-\\w*)?|wiki)\\/(.*$)"
-			},
-			"encoding": "utf-8",
-			"forceRunner": "web_request"
-		},
-		{
-			"enable": false,
-			"name": "重定向 Wikipedia 至 Wikiwand ②",
-			"ruleType": "redirect",
-			"group": "重定向请求",
-			"isFunction": false,
-			"to": "https://www.wikiwand.com/$1$2$3/articles/$5",
-			"condition": {
-				"regex": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)"
-			},
-			"encoding": "utf-8",
-			"forceRunner": "web_request"
-		},
-		{
 			"enable": true,
 			"name": "重定向 2DFan 异类域名",
 			"ruleType": "redirect",
@@ -197,6 +171,19 @@
 		},
 		{
 			"enable": true,
+			"name": "重定向 JAV HD Porn 搜索",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www4.javhdporn.net/ja/search/$1/",
+			"condition": {
+				"regex": "^https?:\\/\\/www4\\.javhdporn\\.net\\/search\\/(.+)\\/"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
 			"name": "重定向 NGA 异类域名",
 			"ruleType": "redirect",
 			"group": "重定向请求",
@@ -231,6 +218,32 @@
 			"condition": {
 				"regex": "^https?:\\/\\/((.+)\\.)?v2ex\\.com\\/(.*$)",
 				"excludeRegex": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": false,
+			"name": "重定向 Wikipedia 至 Wikiwand ①",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.wikiwand.com/zh-cn/articles/$3",
+			"condition": {
+				"regex": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/(?:zh(-\\w*)?|wiki)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": false,
+			"name": "重定向 Wikipedia 至 Wikiwand ②",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.wikiwand.com/$1$2$3/articles/$5",
+			"condition": {
+				"regex": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
