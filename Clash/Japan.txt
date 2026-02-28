@@ -1,5 +1,6 @@
 DOMAIN,adult.contents.fc2.com
 DOMAIN-SUFFIX,dlsite.com
+DOMAIN-SUFFIX,dlsite.jp
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,faleno.jp
