@@ -370,7 +370,7 @@
 			"forceRunner": "web_request"
 		},
 		{
-			"enable": true,
+			"enable": false,
 			"name": "持久化网站用户代理",
 			"ruleType": "modifySendHeader",
 			"group": "修改请求头",
