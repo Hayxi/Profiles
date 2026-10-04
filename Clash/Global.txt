@@ -1,3 +1,0 @@
-DOMAIN,as.mr
-DOMAIN,hoyo.link
-DOMAIN-SUFFIX,hoyoverse.com
