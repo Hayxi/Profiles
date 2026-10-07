@@ -34,7 +34,7 @@
   "config/log-retention-limit": "1000",
   "config/medium-latency": "1000",
   "config/number-of-charts-in-sidebar": "1",
-  "config/custom-css": "/*\n:root {\n  font-variant-numeric: tabular-nums;\n}\n*/\n.font-SystemUI-NotoEmoji {\n  font-family: Inter, \"PingFang UI SC\", \"Noto Color Emoji\";\n}\n",
+  "config/custom-css": ":root {\n  font-variant-numeric: tabular-nums;\n}\n.font-SystemUI-NotoEmoji {\n  font-family: Inter, \"PingFang UI SC\", \"Noto Color Emoji\";\n}\n",
   "config/topology-apply-connection-filter": "true",
   "config/geoip-info-api": "ipwho.is",
   "config/custom-themes": "[{\"name\":\"custom\",\"id\":\"491972ad-92b1-4a35-adfb-130863f24052\",\"--border\":\"1px\",\"--color-base-100\":\"#fff\",\"--color-base-200\":\"#f5f5f7\",\"--color-base-300\":\"#d2d2d7\",\"--color-base-content\":\"#1d1d1f\",\"--color-primary\":\"#454a51\",\"--color-primary-content\":\"#fff\",\"--color-secondary\":\"#6e6e73\",\"--color-secondary-content\":\"#fff\",\"--color-accent\":\"#86868b\",\"--color-accent-content\":\"#1d1d1f\",\"--color-neutral\":\"#3a3a3a\",\"--color-neutral-content\":\"#f5f5f7\",\"--color-info\":\"#5ac8fa\",\"--color-info-content\":\"#fff\",\"--color-success\":\"#34c759\",\"--color-success-content\":\"#fff\",\"--color-warning\":\"#ff9500\",\"--color-warning-content\":\"#fff\",\"--color-error\":\"#ff3b30\",\"--color-error-content\":\"#fff\",\"--depth\":\"0\",\"--noise\":\"0\",\"--radius-box\":\".75rem\",\"--radius-field\":\".625rem\",\"--radius-selector\":\".5rem\",\"--size-field\":\".25rem\",\"--size-selector\":\".25rem\",\"color-scheme\":\"light\",\"default\":false,\"prefersdark\":false}]",
