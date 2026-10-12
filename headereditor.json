@@ -145,7 +145,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 Bangumi 异类域名 ①",
+			"name": "重定向 Bangumi 异类域名 1",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -158,7 +158,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 Bangumi 异类域名 ②",
+			"name": "重定向 Bangumi 异类域名 2",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -216,7 +216,7 @@
 			"isFunction": false,
 			"to": "https://www.v2ex.com/$3",
 			"condition": {
-				"regex": "^https?:\\/\\/((.+)\\.)?v2ex\\.com\\/(.*$)",
+				"regex": "^https?:\\/\\/((.+)\\.)?v2ex\\.com?\\/(.*$)",
 				"excludeRegex": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)"
 			},
 			"encoding": "utf-8",
@@ -224,7 +224,7 @@
 		},
 		{
 			"enable": false,
-			"name": "重定向 Wikipedia 至 Wikiwand ①",
+			"name": "重定向 Wikipedia 至 Wikiwand 1",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -237,7 +237,7 @@
 		},
 		{
 			"enable": false,
-			"name": "重定向 Wikipedia 至 Wikiwand ②",
+			"name": "重定向 Wikipedia 至 Wikiwand 2",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -250,7 +250,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 百度贴吧 异类域名 ①",
+			"name": "重定向 百度贴吧 异类域名 1",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -263,7 +263,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 百度贴吧 异类域名 ②",
+			"name": "重定向 百度贴吧 异类域名 2",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -328,7 +328,7 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 色花堂 异类域名 ①",
+			"name": "重定向 色花堂 异类域名 1",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
@@ -341,13 +341,30 @@
 		},
 		{
 			"enable": true,
-			"name": "重定向 色花堂 异类域名 ②",
+			"name": "重定向 色花堂 异类域名 2",
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
 			"to": "https://www.sehuatang.net/$2",
 			"condition": {
 				"regex": "^https?:\\/\\/(www\\.)?sehuatang\\.net\\/(.*)(&mobile=2$)?"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 司机社 异类域名",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://xsijishe.net/$3",
+			"condition": {
+				"regex": "^https?:\\/\\/(dlsjs|sjs96|xsijishe)\\.(com|net)\\/(.*$)",
+				"excludeDomain": [
+					"xsijishe.net"
+				],
+				"excludeRegex": "^https?:\\/\\/dlsjs\\.com\\/portal\\.php\\?mod=list&catid=2$"
 			},
 			"encoding": "utf-8",
 			"forceRunner": "web_request"
