@@ -358,11 +358,11 @@
 			"ruleType": "redirect",
 			"group": "重定向请求",
 			"isFunction": false,
-			"to": "https://xsijishe.net/$3",
+			"to": "https://xsijishe.com/$3",
 			"condition": {
 				"regex": "^https?:\\/\\/(dlsjs|sjs96|xsijishe)\\.(com|net)\\/(.*$)",
 				"excludeDomain": [
-					"xsijishe.net"
+					"xsijishe.com"
 				],
 				"excludeRegex": "^https?:\\/\\/dlsjs\\.com\\/portal\\.php\\?mod=list&catid=2$"
 			},
@@ -393,7 +393,7 @@
 			"group": "修改请求头",
 			"isFunction": false,
 			"headers": {
-				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
 			},
 			"condition": {
 				"regex": "feishu\\.cn|south-plus\\.net"
