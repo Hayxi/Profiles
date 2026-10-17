@@ -3,6 +3,8 @@ DOMAIN,bpapi.apple.com
 DOMAIN,device-config.pcms.apple.com
 DOMAIN,fba.apple.com
 DOMAIN,fp-assets.cdn-apple.com
+DOMAIN,sg-thumbnail-drive.mypikpak.com
+DOMAIN,static.mypikpak.com
 DOMAIN,time.apple.com
 DOMAIN-SUFFIX,steamdb.info
 DOMAIN-SUFFIX,steamserver.net
