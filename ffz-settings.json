@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "type": "full",
+  "values": {
+    "addons.enabled": [
+      "7tv-emotes",
+      "ffzap-bttv",
+      "ffzap-core",
+      "smokemotes",
+      "trubbel"
+    ],
+    "agreed-tos": [
+      "YouTube"
+    ],
+    "cfg-collapsed": [],
+    "directory.game.blocked-games": [
+      "League of Legends"
+    ],
+    "directory.game.hidden-thumbnails": [
+      "League of Legends"
+    ],
+    "p:0:addon.seventv_emotes.unlisted_emotes": true,
+    "p:0:addon.trubbel.appearance.declutter.player.most_recent_video": true,
+    "p:0:addon.trubbel.appearance.declutter.player.top_gradient": true,
+    "p:0:addon.trubbel.appearance.declutter.vods.muted_segment_popup": true,
+    "p:0:addon.trubbel.appearance.tweaks.chat.full_replies": true,
+    "p:0:addon.trubbel.appearance.tweaks.chat.viewer_list_padding": true,
+    "p:0:addon.trubbel.appearance.tweaks.directory.max_width": true,
+    "p:0:addon.trubbel.appearance.tweaks.inventory.big_img": true,
+    "p:0:addon.trubbel.appearance.tweaks.titles.full_sidebar_tooltip": true,
+    "p:0:addon.trubbel.inventory.drops.detailed": true,
+    "p:0:addon.trubbel.twilight.tooltips.behaviour.instant": true,
+    "p:0:channel.extra-links": false,
+    "p:0:chat.drops.auto-rewards": true,
+    "p:0:chat.emoji.style": 0,
+    "p:0:chat.emote-menu.enabled": false,
+    "p:0:chat.filtering.remove-deleted": 0,
+    "p:0:chat.lines.padding": true,
+    "p:0:chat.name-format": 1,
+    "p:0:chat.points.auto-rewards": true,
+    "p:0:chat.timestamp-format": "HH:mm",
+    "p:0:chat.timestamp-size": 12,
+    "p:0:chat.video-chat.timestamps": false,
+    "p:0:chat.width": 382,
+    "p:0:directory.uptime": 0,
+    "p:0:ffzap.core.remove_spaces": true,
+    "p:0:i18n.format.date": "YYYY/M/D",
+    "p:0:i18n.format.datetime": "YYYY/M/D HH:mm:ss",
+    "p:0:i18n.format.time": "HH:mm",
+    "p:0:i18n.locale": "zh-hant",
+    "p:0:layout.portrait": true,
+    "p:0:layout.prime-offers": false,
+    "p:0:layout.side-nav.show": 2,
+    "p:0:layout.theme.global-font": "Inter,\"PingFang UI TC\",\"Pretendard JP Variable\",\"Noto Color Emoji\"",
+    "p:0:layout.turbo-cta": false,
+    "p:0:metadata.player-stats": true,
+    "p:0:metadata.viewers": true,
+    "p:0:player.allow-catchup": false,
+    "p:0:player.button.pip": false,
+    "p:0:player.button.reset": false,
+    "p:0:player.clip-button.hide-native": true,
+    "p:0:player.compressor.enable": false,
+    "p:0:player.disable-content-warnings": true,
+    "p:0:player.fade-pause-buffer": true,
+    "p:0:player.home.autoplay": false,
+    "p:0:player.vod.autoplay": false,
+    "p:0:theme.legacy-dark-input": true,
+    "p:0:tooltip.link-nsfw-images": true
+  }
+}

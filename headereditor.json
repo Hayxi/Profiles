@@ -1,0 +1,480 @@
+{
+	"request": [
+		{
+			"enable": true,
+			"name": "CSDN",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/link\\.csdn\\.net\\/\\?from_id=[0-9]+&target=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "Facebook",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/l\\.facebook\\.com\\/l\\.php\\?u=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "JAVLibrary",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/www\\.javlibrary\\.com\\/(?:cn|en|ja|tw)\\/redirect\\.php\\?url=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "pixiv",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/www\\.pixiv\\.net\\/jump\\.php\\?(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "Steam",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/steamcommunity\\.com\\/linkfilter\\/\\?u=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "巴哈姆特",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/ref\\.gamer\\.com\\.tw\\/redir\\.php\\?url=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "简书",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/links\\.jianshu\\.com\\/go\\?to=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "少数派",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/sspai\\.com\\/link\\?target=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "知乎",
+			"ruleType": "redirect",
+			"group": "免外链警告",
+			"isFunction": false,
+			"to": "$1",
+			"condition": {
+				"regex": "^https?:\\/\\/link\\.zhihu\\.com\\/\\?target=(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 2DFan 异类域名",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://2dfan.com/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/(?:2dfan|galge)\\.(?:org|top)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 Anime字幕论坛 镜像站网址",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://bbs.acgrip.com/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/404\\.website\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 Bangumi 异类域名 1",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://$1bgm.tv/$2",
+			"condition": {
+				"regex": "^https?:\\/\\/(doujin\\.)?(?:bangumi|chii)\\.(?:tv|in)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 Bangumi 异类域名 2",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://bgm.tv/group/topic/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/bgm\\.tv\\/m\\/topic\\/group\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 JAV HD Porn 搜索",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www4.javhdporn.net/ja/search/$1/",
+			"condition": {
+				"regex": "^https?:\\/\\/www4\\.javhdporn\\.net\\/search\\/(.+)\\/"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 NGA 异类域名",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://bbs.nga.cn/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/(?:g\\.nga|nga\\.178|ngabbs|yues)\\.(?:cn|com|org)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 PlayStation Store 显示语言",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://store.playstation.com/zh-hant-hk/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/store\\.playstation\\.com\\/(?:en-hk|zh-hans-hk)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 V2EX 异类域名",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.v2ex.com/$3",
+			"condition": {
+				"regex": "^https?:\\/\\/((.+)\\.)?v2ex\\.com?\\/(.*$)",
+				"excludeRegex": "^https?:\\/\\/(cdn|www)\\.v2ex\\.com\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": false,
+			"name": "重定向 Wikipedia 至 Wikiwand 1",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.wikiwand.com/zh-cn/articles/$3",
+			"condition": {
+				"regex": "^https?:\\/\\/zh\\.(m.)?wikipedia\\.org\\/(?:zh(-\\w*)?|wiki)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": false,
+			"name": "重定向 Wikipedia 至 Wikiwand 2",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.wikiwand.com/$1$2$3/articles/$5",
+			"condition": {
+				"regex": "^https?:\\/\\/(\\w*)(-\\w*)?(-\\w*)?\\.(m.)?wikipedia\\.org\\/wiki\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 百度贴吧 异类域名 1",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://tieba.baidu.com/f/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/wapp\\.baidu\\.com\\/mo\\/q\\/(?:f|m)\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 百度贴吧 异类域名 2",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://tieba.baidu.com/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/(?:c\\.tieba\\.baidu|dq\\.tieba|jump2?\\.bdimg|wapp\\.baidu|www\\.tieba)\\.com\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 哔哩哔哩 异类域名",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.bilibili.com/video/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/www\\.bilibili\\.com\\/s\\/video\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 京东 移动版网址",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://item.jd.com/$1",
+			"condition": {
+				"regex": "^https?:\\/\\/item\\.m\\.jd\\.com\\/product\\/(.*$)"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 南+ banner 网址",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://south-plus.net/images/banner.gif",
+			"condition": {
+				"url": "https://www.blue-plus.net/images/banner.gif"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 南+ CG&游戏板块 图墙模式",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://south-plus.net/thread_new.php?fid-$1$2.html",
+			"condition": {
+				"regex": "^https?:\\/\\/south-plus\\.net\\/thread\\.php\\?fid-(6|14|171|174)(.*)\\.html"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 色花堂 异类域名 1",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "www.sehuatang.net",
+			"condition": {
+				"regex": "(www\\.)?sehuatang\\.org|m9gh\\.z0gfi\\.com|xh52\\.0wxjm\\.net|z2kf\\.6l4e\\.net"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 色花堂 异类域名 2",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://www.sehuatang.net/$2",
+			"condition": {
+				"regex": "^https?:\\/\\/(www\\.)?sehuatang\\.net\\/(.*)(&mobile=2$)?"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "重定向 司机社 异类域名",
+			"ruleType": "redirect",
+			"group": "重定向请求",
+			"isFunction": false,
+			"to": "https://xsijishe.com/$3",
+			"condition": {
+				"regex": "^https?:\\/\\/(dlsjs|sjs96|xsijishe)\\.(com|net)\\/(.*$)",
+				"excludeDomain": [
+					"xsijishe.com"
+				],
+				"excludeRegex": "^https?:\\/\\/dlsjs\\.com\\/portal\\.php\\?mod=list&catid=2$"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		}
+	],
+	"sendHeader": [
+		{
+			"enable": true,
+			"name": "伪造微博图床 Referer",
+			"ruleType": "modifySendHeader",
+			"group": "修改请求头",
+			"isFunction": false,
+			"headers": {
+				"referer": "https://weibo.com/"
+			},
+			"condition": {
+				"regex": "sinaimg\\.cn"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": false,
+			"name": "持久化网站用户代理",
+			"ruleType": "modifySendHeader",
+			"group": "修改请求头",
+			"isFunction": false,
+			"headers": {
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+			},
+			"condition": {
+				"regex": "feishu\\.cn|south-plus\\.net"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "声明显示语言为繁中",
+			"ruleType": "modifySendHeader",
+			"group": "修改请求头",
+			"isFunction": false,
+			"headers": {
+				"accept-language": "zh-TW"
+			},
+			"condition": {
+				"regex": "battle\\.net|blizzard\\.com|epicgames\\.com|poedb\\.tw"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": true,
+			"name": "声明显示语言为日语",
+			"ruleType": "modifySendHeader",
+			"group": "修改请求头",
+			"isFunction": false,
+			"headers": {
+				"accept-language": "ja"
+			},
+			"condition": {
+				"regex": "fc2\\.com"
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		}
+	],
+	"receiveHeader": [
+		{
+			"enable": false,
+			"name": "声明页面语言为繁中",
+			"ruleType": "modifyReceiveHeader",
+			"group": "修改响应头",
+			"isFunction": false,
+			"headers": {
+				"content-language": "zh-TW"
+			},
+			"condition": {
+				"domain": [
+					"clickme.net",
+					"gamer.com.tw",
+					"playno1.com",
+					"ptt.cc",
+					"ptt2.cc"
+				]
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		},
+		{
+			"enable": false,
+			"name": "声明页面语言为日语",
+			"ruleType": "modifyReceiveHeader",
+			"group": "修改响应头",
+			"isFunction": false,
+			"headers": {
+				"content-language": "ja"
+			},
+			"condition": {
+				"domain": [
+					"a-kaguya.com",
+					"at-sakura.net",
+					"fc2web.com",
+					"sagaoz.net",
+					"seiya-saiga.com"
+				]
+			},
+			"encoding": "utf-8",
+			"forceRunner": "web_request"
+		}
+	],
+	"receiveBody": []
+}
